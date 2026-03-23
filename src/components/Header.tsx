@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Programs", href: "#", children: programs },
+  { label: "Colleges", href: "/colleges" },
   { label: "Services", href: "/services" },
   { label: "Career Guidance", href: "/career-guidance" },
   { label: "Blog", href: "/blog" },
