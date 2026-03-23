@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { AnimateIn } from "@/components/AnimateIn";
+import { HeroSearchBar } from "@/components/home/HeroSearchBar";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const HeroSection = () => {
@@ -30,11 +31,14 @@ export const HeroSection = () => {
 
           <AnimateIn animation="fade-up" delay={200}>
             <p className="mt-6 text-lg md:text-xl text-primary-foreground/70 leading-relaxed max-w-xl">
-              Expert guidance for MBBS, MS, MBA & Dental programs across 13+ countries. From admission to visa — we handle everything.
+              Expert guidance for MBBS & MS programs across 13+ countries. From admission to visa — we handle everything.
             </p>
           </AnimateIn>
 
-          <AnimateIn animation="fade-up" delay={300}>
+          {/* Advanced Search Bar */}
+          <HeroSearchBar />
+
+          <AnimateIn animation="fade-up" delay={400}>
             <div className="mt-8 flex flex-col sm:flex-row items-start gap-4">
               <Link
                 to="/contact"
@@ -53,7 +57,7 @@ export const HeroSection = () => {
           </AnimateIn>
 
           {/* Stats */}
-          <AnimateIn animation="fade-up" delay={450}>
+          <AnimateIn animation="fade-up" delay={500}>
             <div className="mt-14 flex items-center gap-8 md:gap-12">
               {[
                 { value: "13+", label: "Countries" },
