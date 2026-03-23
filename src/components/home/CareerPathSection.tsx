@@ -1,13 +1,11 @@
 import { useState } from "react";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SectionTitle } from "@/components/SectionTitle";
-import { ArrowRight, GraduationCap, Stethoscope, Briefcase, SmilePlus } from "lucide-react";
+import { ArrowRight, GraduationCap, Stethoscope } from "lucide-react";
 
 const courses = [
   { icon: Stethoscope, title: "MBBS Abroad", desc: "Study medicine in WHO/NMC recognized universities across 7+ countries with affordable tuition.", href: "/mbbs-abroad", countries: "Russia, Georgia, Serbia, Kazakhstan" },
   { icon: GraduationCap, title: "MS Abroad", desc: "Pursue your Master's in top universities across USA, UK, Australia, Germany, and more.", href: "/ms-abroad", countries: "USA, UK, Germany, Australia" },
-  { icon: Briefcase, title: "MBA Abroad", desc: "Global MBA programs with strong placement support and international exposure.", href: "/mba-abroad", countries: "USA, UK, Australia, Ireland" },
-  { icon: SmilePlus, title: "Dental Abroad", desc: "Study BDS/MDS abroad in recognized dental schools with clinical training.", href: "/dental-abroad", countries: "Georgia, Serbia, Russia" },
 ];
 
 export const CareerPathSection = () => {

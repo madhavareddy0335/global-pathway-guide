@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import CareerGuidance from "./pages/CareerGuidance";
-import { MBBSAbroad, MSAbroad, MBAAbroad, DentalAbroad } from "./pages/ProgramPages";
+import { MBBSAbroad, MSAbroad } from "./pages/ProgramPages";
 import CountryPage from "./pages/CountryPage";
 import CollegeListing from "./pages/CollegeListing";
 import CollegeDetail from "./pages/CollegeDetail";
@@ -39,8 +39,6 @@ const App = () => (
           {/* Programs */}
           <Route path="/mbbs-abroad" element={<MBBSAbroad />} />
           <Route path="/ms-abroad" element={<MSAbroad />} />
-          <Route path="/mba-abroad" element={<MBAAbroad />} />
-          <Route path="/dental-abroad" element={<DentalAbroad />} />
 
           {/* Country Pages */}
           <Route path="/mbbs-in-russia" element={<CountryPage />} />
