@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import CareerGuidance from "./pages/CareerGuidance";
-import { MBBSAbroad, MSAbroad, MBAAbroad, DentalAbroad } from "./pages/ProgramPages";
+import { MBBSAbroad, MSAbroad } from "./pages/ProgramPages";
 import CountryPage from "./pages/CountryPage";
 import CollegeListing from "./pages/CollegeListing";
 import CollegeDetail from "./pages/CollegeDetail";
