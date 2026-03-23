@@ -39,8 +39,6 @@ const App = () => (
           {/* Programs */}
           <Route path="/mbbs-abroad" element={<MBBSAbroad />} />
           <Route path="/ms-abroad" element={<MSAbroad />} />
-          <Route path="/mba-abroad" element={<MBAAbroad />} />
-          <Route path="/dental-abroad" element={<DentalAbroad />} />
 
           {/* Country Pages */}
           <Route path="/mbbs-in-russia" element={<CountryPage />} />

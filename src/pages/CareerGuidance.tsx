@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const guidanceTopics = [
-  { title: "After 12th Science (PCB)", items: ["MBBS Abroad — Study medicine at affordable NMC-recognized universities", "BDS Abroad — Pursue dental studies in Europe", "Nursing Abroad — Healthcare career with global demand", "Pharmacy Abroad — Pharmaceutical sciences in recognized universities"] },
-  { title: "After Graduation (B.Tech/B.Sc)", items: ["MS Abroad — Specialize in engineering, data science, AI, or research", "MBA Abroad — Accelerate your management career globally", "PhD Abroad — Funded research positions at top universities", "Professional Certifications — AWS, Google, CFA, and more"] },
+  { title: "After 12th Science (PCB)", items: ["MBBS Abroad — Study medicine at affordable NMC-recognized universities", "Nursing Abroad — Healthcare career with global demand", "Pharmacy Abroad — Pharmaceutical sciences in recognized universities"] },
+  { title: "After Graduation (B.Tech/B.Sc)", items: ["MS Abroad — Specialize in engineering, data science, AI, or research", "PhD Abroad — Funded research positions at top universities", "Professional Certifications — AWS, Google, CFA, and more"] },
   { title: "After MBBS", items: ["PG Specialization (MD/MS) in India or abroad", "USMLE pathway for practicing in USA", "PLAB pathway for practicing in UK", "FMGE/NEXT preparation for India practice"] },
 ];
 

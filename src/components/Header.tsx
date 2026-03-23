@@ -6,8 +6,6 @@ import kmrLogo from "@/assets/kmr-logo.png";
 const programs = [
   { label: "MBBS Abroad", href: "/mbbs-abroad" },
   { label: "MS Abroad", href: "/ms-abroad" },
-  { label: "MBA Abroad", href: "/mba-abroad" },
-  { label: "Dental Abroad", href: "/dental-abroad" },
 ];
 
 const navLinks = [

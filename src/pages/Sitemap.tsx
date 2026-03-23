@@ -11,7 +11,6 @@ const sections = [
   ]},
   { title: "Programs", links: [
     { label: "MBBS Abroad", href: "/mbbs-abroad" }, { label: "MS Abroad", href: "/ms-abroad" },
-    { label: "MBA Abroad", href: "/mba-abroad" }, { label: "Dental Abroad", href: "/dental-abroad" },
   ]},
   { title: "MBBS Countries", links: [
     { label: "MBBS in Russia", href: "/mbbs-in-russia" }, { label: "MBBS in Georgia", href: "/mbbs-in-georgia" },
