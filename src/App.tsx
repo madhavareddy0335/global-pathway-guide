@@ -15,7 +15,8 @@ import CountryPage from "./pages/CountryPage";
 import CollegeListing from "./pages/CollegeListing";
 import CollegeDetail from "./pages/CollegeDetail";
 import { CareerAfterMBBS, CareerAfterMS, CountrySelectionGuide, BudgetPlanningGuide, CourseSelectionGuide } from "./pages/CareerPages";
-import { NeetUGGuide, NeetPGGuide, EntranceExamsOverview } from "./pages/ExamPages";
+import ExamListing from "./pages/ExamListing";
+import ExamDetail from "./pages/ExamDetail";
 import BlogListing from "./pages/BlogListing";
 import BlogDetail from "./pages/BlogDetail";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -68,9 +69,8 @@ const App = () => (
           <Route path="/career/course-selection-guide" element={<CourseSelectionGuide />} />
 
           {/* Exams */}
-          <Route path="/exams/neet-ug" element={<NeetUGGuide />} />
-          <Route path="/exams/neet-pg" element={<NeetPGGuide />} />
-          <Route path="/exams/overview" element={<EntranceExamsOverview />} />
+          <Route path="/exams" element={<ExamListing />} />
+          <Route path="/exams/:slug" element={<ExamDetail />} />
 
           {/* Blog */}
           <Route path="/blog" element={<BlogListing />} />
