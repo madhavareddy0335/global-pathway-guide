@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import StandardPageTemplate from "@/components/templates/StandardPageTemplate";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SectionTitle } from "@/components/SectionTitle";
-import { collegeDetailsData, defaultCollegeDetail } from "@/data/collegeDetails";
+import { getCollegeDetail } from "@/data/collegeDetails";
 import {
   CheckCircle, MapPin, DollarSign, GraduationCap, ArrowRight, Building2,
   Calendar, Users, Award, BookOpen, Home, Utensils, HelpCircle, Star,
@@ -12,7 +12,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const CollegeDetail = () => {
   const { slug } = useParams<{ slug: string }>();
-  const college = slug && collegeDetailsData[slug] ? collegeDetailsData[slug] : defaultCollegeDetail;
+  const college = getCollegeDetail(slug || "");
 
   return (
     <StandardPageTemplate

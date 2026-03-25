@@ -30,13 +30,19 @@ export interface CollegeDetailData {
   faqs: { q: string; a: string }[];
 }
 
-export const collegeDetailsData: Record<string, CollegeDetailData> = {
+// Import the colleges listing to auto-generate details
+import { colleges } from "./colleges";
+
+// ═══════════════════════════════════════════
+// HAND-CRAFTED DETAILED ENTRIES
+// ═══════════════════════════════════════════
+const handCraftedDetails: Record<string, CollegeDetailData> = {
   "kazan-federal-university": {
     name: "Kazan Federal University",
     country: "Russia", flag: "🇷🇺", city: "Kazan", program: "MBBS",
     fees: "₹3.5 Lakh/year", ranking: "Top 10 in Russia", established: "1804",
     recognition: "NMC, WHO, WFME recognized",
-    overview: "Kazan Federal University is one of the oldest and most prestigious universities in Russia, founded in 1804. It offers world-class medical education with modern facilities, experienced faculty, and a strong track record of producing successful medical professionals. The university is located in Kazan, a vibrant multicultural city with a welcoming environment for international students.",
+    overview: "Kazan Federal University is one of the oldest and most prestigious universities in Russia, founded in 1804. It offers world-class medical education with modern facilities, experienced faculty, and a strong track record of producing successful medical professionals.",
     highlights: [
       "Founded in 1804 — over 220 years of academic excellence",
       "Top 10 university in Russia for medical education",
@@ -77,7 +83,7 @@ export const collegeDetailsData: Record<string, CollegeDetailData> = {
       ],
     },
     placements: {
-      overview: "Graduates from Kazan Federal University's medical program have excellent career prospects. With a globally recognized degree, students can practice medicine in India (after FMGE/NEXT), Russia, CIS countries, and pursue further specialization worldwide.",
+      overview: "Graduates from Kazan Federal University have excellent career prospects with globally recognized degrees.",
       avgPackage: "₹5-8 LPA (India, post-FMGE)",
       highestPackage: "₹15+ LPA (Specialization)",
       topRecruiters: ["Indian Government Hospitals", "Apollo Hospitals", "Fortis Healthcare", "Max Healthcare", "Manipal Hospitals", "WHO", "UNICEF"],
@@ -104,7 +110,7 @@ export const collegeDetailsData: Record<string, CollegeDetailData> = {
       { name: "KMR Education Grant", amount: "₹50,000 one-time", eligibility: "Students from economically weaker sections" },
     ],
     hostel: "Modern dormitories with 24/7 security, Wi-Fi, heating, common areas, and kitchen facilities. Rooms are shared (2-3 students) with private bathrooms. Hostel fee: ₹15,000-20,000/year.",
-    indianFood: "Dedicated Indian mess on campus serving North & South Indian food. Multiple Indian restaurants in Kazan city. Indian grocery stores available for home cooking.",
+    indianFood: "Dedicated Indian mess on campus serving North & South Indian food. Multiple Indian restaurants in Kazan city.",
     faqs: [
       { q: "Is Kazan Federal University good for MBBS?", a: "Yes, it's one of the top 10 universities in Russia with 220+ years of history and NMC/WHO recognition." },
       { q: "What is the total cost?", a: "Approximately ₹22-25 Lakh for the complete 6-year program including tuition, hostel, and living expenses." },
@@ -112,7 +118,7 @@ export const collegeDetailsData: Record<string, CollegeDetailData> = {
       { q: "Can I practice in India after graduating?", a: "Yes, after clearing FMGE/NEXT exam, you can practice medicine anywhere in India." },
     ],
   },
-  "tbilisi-state-medical": {
+  "tbilisi-state-medical-university": {
     name: "Tbilisi State Medical University",
     country: "Georgia", flag: "🇬🇪", city: "Tbilisi", program: "MBBS",
     fees: "₹3.5 Lakh/year", ranking: "#1 in Georgia", established: "1918",
@@ -141,12 +147,7 @@ export const collegeDetailsData: Record<string, CollegeDetailData> = {
         "Obtain residence permit after arrival",
         "Session begins September",
       ],
-      eligibility: [
-        "NEET UG qualified",
-        "12th with PCB (50%+)",
-        "Age 17+",
-        "Valid passport",
-      ],
+      eligibility: ["NEET UG qualified", "12th with PCB (50%+)", "Age 17+", "Valid passport"],
       importantDates: [
         { event: "Applications Open", date: "February 2026" },
         { event: "Deadline", date: "August 2026" },
@@ -154,7 +155,7 @@ export const collegeDetailsData: Record<string, CollegeDetailData> = {
       ],
     },
     placements: {
-      overview: "TSMU graduates are well-placed globally. The European standard degree allows practice in EU countries with additional licensing, while Indian graduates can practice after FMGE/NEXT.",
+      overview: "TSMU graduates are well-placed globally. The European standard degree allows practice in EU countries with additional licensing.",
       avgPackage: "₹5-10 LPA",
       highestPackage: "₹20+ LPA (EU practice)",
       topRecruiters: ["Indian Hospitals", "European Healthcare Systems", "WHO", "Research Institutions"],
@@ -185,22 +186,139 @@ export const collegeDetailsData: Record<string, CollegeDetailData> = {
   },
 };
 
-// Default fallback for colleges not in detailed data
+// ═══════════════════════════════════════════
+// AUTO-GENERATE DETAILS FOR UNLISTED COLLEGES
+// ═══════════════════════════════════════════
+
+const mbbsAdmissionProcess = [
+  "Qualify NEET UG with required cutoff",
+  "Submit application through KMR Global Education",
+  "Receive official admission/invitation letter",
+  "Complete document verification and apostille",
+  "Apply for student visa",
+  "Attend pre-departure briefing",
+  "Travel — airport pickup arranged",
+];
+
+const msAdmissionProcess = [
+  "Complete bachelor's degree with required GPA",
+  "Clear GRE/GMAT (if required)",
+  "Clear IELTS/TOEFL for English proficiency",
+  "Submit application through KMR Global Education",
+  "Receive admission offer letter",
+  "Apply for student visa",
+  "Travel — orientation arranged by university",
+];
+
+const mbbsEligibility = [
+  "NEET UG qualified",
+  "12th pass with Physics, Chemistry, Biology (50%+)",
+  "Age 17+ at time of admission",
+  "Valid Indian passport",
+];
+
+const msEligibility = [
+  "Bachelor's degree in relevant field (60%+)",
+  "GRE/GMAT score (varies by program)",
+  "IELTS 6.5+ or TOEFL 80+",
+  "Valid Indian passport",
+  "Statement of Purpose and Letters of Recommendation",
+];
+
+function generateDetailFromListing(slug: string): CollegeDetailData | null {
+  const college = colleges.find(c => c.slug === slug);
+  if (!college) return null;
+
+  const isMBBS = college.program === "MBBS";
+  const countryLower = college.country.toLowerCase();
+
+  return {
+    name: college.name,
+    country: college.country,
+    flag: college.flag,
+    city: college.city,
+    program: college.program,
+    fees: college.fees,
+    ranking: college.ranking,
+    established: "-",
+    recognition: isMBBS ? "NMC, WHO recognized" : "Internationally recognized",
+    overview: `${college.name} is a prestigious institution located in ${college.city}, ${college.country}. It offers high-quality ${college.program} programs with modern facilities, experienced faculty, and strong support for international students. Contact KMR Global Education for detailed information about courses, fees, and admission process.`,
+    highlights: [
+      `Located in ${college.city}, ${college.country}`,
+      `${college.ranking}`,
+      isMBBS ? "NMC and WHO recognized" : "Internationally recognized degree",
+      "English medium instruction available",
+      "Modern campus with excellent facilities",
+      "Comprehensive student support services",
+    ],
+    courses: [
+      { name: isMBBS ? "General Medicine (MBBS equivalent)" : "Master's Programs", duration: isMBBS ? "6 years" : "1-2 years", fees: college.fees },
+    ],
+    admissions: {
+      process: isMBBS ? mbbsAdmissionProcess : msAdmissionProcess,
+      eligibility: isMBBS ? mbbsEligibility : msEligibility,
+      importantDates: [
+        { event: "Applications Open", date: "Early 2026" },
+        { event: "Session Starts", date: "September 2026" },
+      ],
+    },
+    placements: {
+      overview: `Graduates from ${college.name} have strong career prospects globally. Contact KMR Global Education for detailed placement statistics.`,
+      avgPackage: isMBBS ? "₹5-10 LPA (post-FMGE)" : "Varies by specialization",
+      highestPackage: isMBBS ? "₹15+ LPA" : "Varies by role & country",
+      topRecruiters: isMBBS
+        ? ["Government Hospitals", "Apollo Hospitals", "Fortis Healthcare", "Max Healthcare"]
+        : ["Top MNCs", "Tech Companies", "Research Institutions", "Consulting Firms"],
+      stats: [],
+    },
+    infrastructure: [
+      "Modern campus with advanced facilities",
+      "Well-equipped laboratories",
+      "Digital library and research resources",
+      "Sports and recreation facilities",
+      "Student accommodation available",
+      "24/7 Wi-Fi across campus",
+    ],
+    scholarships: [
+      { name: "Merit-Based Scholarship", amount: "Contact for details", eligibility: "Outstanding academic performance" },
+      { name: "KMR Education Grant", amount: "₹50,000 one-time", eligibility: "Students from economically weaker sections" },
+    ],
+    hostel: "Student accommodation available with modern amenities. Contact KMR Global Education for details.",
+    indianFood: isMBBS ? "Indian food options available near the university. Contact us for details." : "International food options available in the city.",
+    faqs: [
+      { q: `Is ${college.name} good for ${college.program}?`, a: `Yes, ${college.name} is a reputed institution in ${college.country} with ${college.ranking} status. Contact KMR for more details.` },
+      { q: "What is the admission process?", a: "Contact KMR Global Education for complete guidance on the admission process, documentation, and visa support." },
+      { q: `What is the fee structure?`, a: `The tuition fee is approximately ${college.fees}. Contact us for complete cost breakdown including hostel and living expenses.` },
+    ],
+  };
+}
+
+// ═══════════════════════════════════════════
+// EXPORTED LOOKUP FUNCTION
+// ═══════════════════════════════════════════
+
+export function getCollegeDetail(slug: string): CollegeDetailData {
+  // First check hand-crafted details
+  if (handCraftedDetails[slug]) return handCraftedDetails[slug];
+
+  // Auto-generate from listing data
+  const generated = generateDetailFromListing(slug);
+  if (generated) return generated;
+
+  // Final fallback
+  return defaultCollegeDetail;
+}
+
+export const collegeDetailsData = handCraftedDetails;
+
 export const defaultCollegeDetail: CollegeDetailData = {
   name: "Partner University",
   country: "Abroad", flag: "🌍", city: "International", program: "MBBS/MS",
   fees: "Contact for details", ranking: "Internationally recognized", established: "-",
   recognition: "Internationally recognized",
-  overview: "This is one of our esteemed partner universities offering globally recognized degrees. Contact KMR Global Education for detailed information about this institution, including courses, fees, admission process, and placement records.",
-  highlights: [
-    "Internationally recognized degrees",
-    "Quality education at affordable fees",
-    "Comprehensive student support",
-    "Modern campus facilities",
-  ],
-  courses: [
-    { name: "Medicine / Engineering / Business", duration: "Varies", fees: "Contact for details" },
-  ],
+  overview: "This is one of our esteemed partner universities. Contact KMR Global Education for detailed information.",
+  highlights: ["Internationally recognized degrees", "Quality education at affordable fees", "Comprehensive student support", "Modern campus facilities"],
+  courses: [{ name: "Medicine / Engineering / Business", duration: "Varies", fees: "Contact for details" }],
   admissions: {
     process: ["Contact KMR Global Education for the admission process"],
     eligibility: ["Relevant qualifying exam", "Academic transcripts", "Valid passport"],
@@ -208,10 +326,8 @@ export const defaultCollegeDetail: CollegeDetailData = {
   },
   placements: {
     overview: "Our partner universities have strong placement records. Contact us for detailed statistics.",
-    avgPackage: "Contact for details",
-    highestPackage: "Contact for details",
-    topRecruiters: [],
-    stats: [],
+    avgPackage: "Contact for details", highestPackage: "Contact for details",
+    topRecruiters: [], stats: [],
   },
   infrastructure: ["Modern campus facilities", "Library", "Labs", "Student accommodation"],
   scholarships: [],
