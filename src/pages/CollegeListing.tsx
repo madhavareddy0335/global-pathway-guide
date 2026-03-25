@@ -4,41 +4,7 @@ import StandardPageTemplate from "@/components/templates/StandardPageTemplate";
 import { AnimateIn } from "@/components/AnimateIn";
 import { ArrowRight, MapPin, DollarSign, Search, X, SlidersHorizontal } from "lucide-react";
 import { Input } from "@/components/ui/input";
-
-const colleges = [
-  { name: "Kazan Federal University", country: "Russia", flag: "🇷🇺", program: "MBBS", fees: "₹3.5L/year", feesNum: 350000, city: "Kazan", ranking: "Top 10 in Russia", slug: "kazan-federal-university" },
-  { name: "Bashkir State Medical University", country: "Russia", flag: "🇷🇺", program: "MBBS", fees: "₹3.2L/year", feesNum: 320000, city: "Ufa", ranking: "Top 15 in Russia", slug: "bashkir-state-medical" },
-  { name: "Crimea Federal University", country: "Russia", flag: "🇷🇺", program: "MBBS", fees: "₹2.8L/year", feesNum: 280000, city: "Simferopol", ranking: "Top 20 in Russia", slug: "crimea-federal-university" },
-  { name: "Orenburg State Medical University", country: "Russia", flag: "🇷🇺", program: "MBBS", fees: "₹3L/year", feesNum: 300000, city: "Orenburg", ranking: "Recognized by NMC", slug: "orenburg-state-medical" },
-  { name: "Tbilisi State Medical University", country: "Georgia", flag: "🇬🇪", program: "MBBS", fees: "₹3.5L/year", feesNum: 350000, city: "Tbilisi", ranking: "#1 in Georgia", slug: "tbilisi-state-medical" },
-  { name: "European University (Georgia)", country: "Georgia", flag: "🇬🇪", program: "MBBS", fees: "₹4L/year", feesNum: 400000, city: "Tbilisi", ranking: "Top Private in Georgia", slug: "european-university-georgia" },
-  { name: "Batumi Shota Rustaveli State University", country: "Georgia", flag: "🇬🇪", program: "MBBS", fees: "₹3L/year", feesNum: 300000, city: "Batumi", ranking: "Recognized by WHO", slug: "batumi-state-university" },
-  { name: "Kazakh National Medical University", country: "Kazakhstan", flag: "🇰🇿", program: "MBBS", fees: "₹3L/year", feesNum: 300000, city: "Almaty", ranking: "Top in Kazakhstan", slug: "kazakh-national-medical" },
-  { name: "Astana Medical University", country: "Kazakhstan", flag: "🇰🇿", program: "MBBS", fees: "₹2.8L/year", feesNum: 280000, city: "Astana", ranking: "#2 in Kazakhstan", slug: "astana-medical-university" },
-  { name: "Karaganda Medical University", country: "Kazakhstan", flag: "🇰🇿", program: "MBBS", fees: "₹2.5L/year", feesNum: 250000, city: "Karaganda", ranking: "NMC Recognized", slug: "karaganda-medical" },
-  { name: "University of Belgrade Faculty of Medicine", country: "Serbia", flag: "🇷🇸", program: "MBBS", fees: "₹4.5L/year", feesNum: 450000, city: "Belgrade", ranking: "Top in Serbia", slug: "belgrade-medicine" },
-  { name: "University of Novi Sad Medical Faculty", country: "Serbia", flag: "🇷🇸", program: "MBBS", fees: "₹4L/year", feesNum: 400000, city: "Novi Sad", ranking: "#2 in Serbia", slug: "novi-sad-medicine" },
-  { name: "Tashkent Medical Academy", country: "Uzbekistan", flag: "🇺🇿", program: "MBBS", fees: "₹2.2L/year", feesNum: 220000, city: "Tashkent", ranking: "Top in Uzbekistan", slug: "tashkent-medical" },
-  { name: "Samarkand State Medical University", country: "Uzbekistan", flag: "🇺🇿", program: "MBBS", fees: "₹2L/year", feesNum: 200000, city: "Samarkand", ranking: "#2 in Uzbekistan", slug: "samarkand-medical" },
-  { name: "Bukhara State Medical Institute", country: "Uzbekistan", flag: "🇺🇿", program: "MBBS", fees: "₹1.8L/year", feesNum: 180000, city: "Bukhara", ranking: "NMC Recognized", slug: "bukhara-medical" },
-  { name: "Avicenna Tajik State Medical University", country: "Tajikistan", flag: "🇹🇯", program: "MBBS", fees: "₹2L/year", feesNum: 200000, city: "Dushanbe", ranking: "Top in Tajikistan", slug: "avicenna-tajik-medical" },
-  { name: "Kyrgyz State Medical Academy", country: "Kyrgyzstan", flag: "🇰🇬", program: "MBBS", fees: "₹2.5L/year", feesNum: 250000, city: "Bishkek", ranking: "Top in Kyrgyzstan", slug: "kyrgyz-medical" },
-  { name: "International School of Medicine (ISM)", country: "Kyrgyzstan", flag: "🇰🇬", program: "MBBS", fees: "₹3L/year", feesNum: 300000, city: "Bishkek", ranking: "NMC Recognized", slug: "ism-kyrgyzstan" },
-  { name: "Massachusetts Institute of Technology", country: "USA", flag: "🇺🇸", program: "MS", fees: "$55K/year", feesNum: 4500000, city: "Boston", ranking: "#1 Globally", slug: "mit" },
-  { name: "Stanford University", country: "USA", flag: "🇺🇸", program: "MS", fees: "$57K/year", feesNum: 4700000, city: "Stanford", ranking: "#2 Globally", slug: "stanford" },
-  { name: "Carnegie Mellon University", country: "USA", flag: "🇺🇸", program: "MS", fees: "$50K/year", feesNum: 4100000, city: "Pittsburgh", ranking: "Top 5 for CS", slug: "carnegie-mellon" },
-  { name: "University of Oxford", country: "UK", flag: "🇬🇧", program: "MS", fees: "£30K/year", feesNum: 3200000, city: "Oxford", ranking: "#1 in UK", slug: "oxford" },
-  { name: "Imperial College London", country: "UK", flag: "🇬🇧", program: "MS", fees: "£35K/year", feesNum: 3600000, city: "London", ranking: "Top 10 Globally", slug: "imperial-college" },
-  { name: "University of Edinburgh", country: "UK", flag: "🇬🇧", program: "MS", fees: "£25K/year", feesNum: 2700000, city: "Edinburgh", ranking: "Top 20 Globally", slug: "edinburgh" },
-  { name: "TU Munich", country: "Germany", flag: "🇩🇪", program: "MS", fees: "Free tuition", feesNum: 30000, city: "Munich", ranking: "#1 in Germany", slug: "tu-munich" },
-  { name: "RWTH Aachen University", country: "Germany", flag: "🇩🇪", program: "MS", fees: "Free tuition", feesNum: 30000, city: "Aachen", ranking: "#2 Engineering in Germany", slug: "rwth-aachen" },
-  { name: "University of Melbourne", country: "Australia", flag: "🇦🇺", program: "MS", fees: "AUD 42K/year", feesNum: 2300000, city: "Melbourne", ranking: "#1 in Australia", slug: "melbourne" },
-  { name: "University of Sydney", country: "Australia", flag: "🇦🇺", program: "MS", fees: "AUD 45K/year", feesNum: 2500000, city: "Sydney", ranking: "#2 in Australia", slug: "sydney" },
-  { name: "Politecnico di Milano", country: "Italy", flag: "🇮🇹", program: "MS", fees: "€3.8K/year", feesNum: 340000, city: "Milan", ranking: "#1 Engineering in Italy", slug: "polimi" },
-  { name: "University of Bologna", country: "Italy", flag: "🇮🇹", program: "MS", fees: "€2.5K/year", feesNum: 220000, city: "Bologna", ranking: "Oldest University in the World", slug: "bologna" },
-  { name: "Trinity College Dublin", country: "Ireland", flag: "🇮🇪", program: "MS", fees: "€18K/year", feesNum: 1700000, city: "Dublin", ranking: "#1 in Ireland", slug: "trinity-dublin" },
-  { name: "University College Dublin", country: "Ireland", flag: "🇮🇪", program: "MS", fees: "€20K/year", feesNum: 1900000, city: "Dublin", ranking: "#2 in Ireland", slug: "ucd" },
-];
+import { colleges } from "@/data/colleges";
 
 const allCountries = [...new Set(colleges.map(c => c.country))].sort();
 const allPrograms = [...new Set(colleges.map(c => c.program))].sort();
@@ -84,7 +50,7 @@ const CollegeListing = () => {
       metaDescription="Browse all partner universities for MBBS and MS abroad. Compare fees, rankings, and locations. Free counselling by KMR."
       heroLabel="Our Colleges"
       heroTitle="Explore Partner Universities Worldwide"
-      heroSubtitle="Browse our network of 30+ NMC/WHO recognized universities across 13+ countries."
+      heroSubtitle={`Browse our network of ${colleges.length}+ NMC/WHO recognized universities across ${allCountries.length}+ countries.`}
     >
       <section className="py-16 md:py-24">
         <div className="container">
