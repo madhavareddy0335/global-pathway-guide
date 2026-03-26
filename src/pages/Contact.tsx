@@ -10,7 +10,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Hi MPR Global Education!%0A%0AName: ${form.name}%0APhone: ${form.phone}%0ACourse: ${form.course}%0ACountry: ${form.country}%0AMessage: ${form.message}`;
-    window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+    window.open(`https://wa.me/917416868111?text=${text}`, "_blank");
   };
 
   return (
@@ -35,7 +35,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-1.5">Phone Number *</label>
-                    <input type="tel" required value={form.phone} onChange={e => setForm(p => ({ ...p, phone: e.target.value }))} className="w-full px-4 py-3 rounded-xl border bg-secondary text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-accent/30" placeholder="+91 98765 43210" />
+                    <input type="tel" required value={form.phone} onChange={e => setForm(p => ({ ...p, phone: e.target.value }))} className="w-full px-4 py-3 rounded-xl border bg-secondary text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-accent/30" placeholder="+91 74168 68111" />
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
@@ -86,7 +86,7 @@ const Contact = () => {
                       <Phone className="w-5 h-5 text-accent shrink-0" />
                       <div>
                         <p className="text-sm font-medium text-foreground">Phone</p>
-                        <a href="tel:+919876543210" className="text-sm text-muted-foreground hover:text-accent">+91 98765 43210</a>
+                        <a href="tel:+917416868111" className="text-sm text-muted-foreground hover:text-accent">+91 74168 68111</a>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start">
@@ -116,7 +116,7 @@ const Contact = () => {
                 <div className="p-6 rounded-2xl bg-accent/5 border border-accent/10">
                   <h3 className="font-bold text-foreground mb-2">Quick WhatsApp</h3>
                   <p className="text-sm text-muted-foreground mb-4">Get instant responses from our counselling team.</p>
-                  <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] text-primary-foreground font-semibold rounded-xl text-sm hover:brightness-110 transition-all">
+                  <a href="https://wa.me/917416868111" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] text-primary-foreground font-semibold rounded-xl text-sm hover:brightness-110 transition-all">
                     <MessageCircle className="w-4 h-4" /> Chat Now
                   </a>
                 </div>

@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 import { AnimateIn } from "@/components/AnimateIn";
 
 export const CTASection = () => {
-  const phone = "919876543210";
+  const phone = "917416868111";
   const message = encodeURIComponent("Hi MPR Global Education, I want to study abroad. Please help me with guidance.");
 
   return (

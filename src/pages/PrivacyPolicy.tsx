@@ -46,7 +46,7 @@ const PrivacyPolicy = () => {
                 <p className="text-muted-foreground leading-relaxed">You have the right to request access to, correction of, or deletion of your personal data. You may also opt out of promotional communications at any time.</p>
 
                 <h2 className="text-xl font-bold text-foreground">7. Contact for Privacy Queries</h2>
-                <p className="text-muted-foreground leading-relaxed">For any privacy-related questions or data requests, please contact us at <a href="mailto:privacy@mprglobaleducation.com" className="text-accent hover:underline">privacy@mprglobaleducation.com</a> or call +91 98765 43210.</p>
+                <p className="text-muted-foreground leading-relaxed">For any privacy-related questions or data requests, please contact us at <a href="mailto:privacy@mprglobaleducation.com" className="text-accent hover:underline">privacy@mprglobaleducation.com</a> or call +91 74168 68111.</p>
               </div>
             </AnimateIn>
           </div>

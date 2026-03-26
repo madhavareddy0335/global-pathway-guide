@@ -105,13 +105,13 @@ export const Header = () => {
 
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="tel:+919876543210"
+            href="tel:+917416868111"
             className={`flex items-center gap-2 text-sm font-medium transition-colors ${
               scrolled ? "text-foreground" : "text-primary-foreground/90"
             }`}
           >
             <Phone className="w-4 h-4" />
-            +91 98765 43210
+            +91 74168 68111
           </a>
           <Link
             to="/contact"

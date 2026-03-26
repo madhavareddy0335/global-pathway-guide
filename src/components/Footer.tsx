@@ -36,9 +36,9 @@ export const Footer = () => {
               Your trusted partner for overseas education. We guide students through every step — from country selection to visa approval and beyond.
             </p>
             <div className="space-y-3">
-              <a href="tel:+919876543210" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
+              <a href="tel:+917416868111" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
                 <Phone className="w-4 h-4 text-accent shrink-0" />
-                +91 98765 43210
+                +91 74168 68111
               </a>
               <a href="mailto:info@mprglobaleducation.com" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
                 <Mail className="w-4 h-4 text-accent shrink-0" />
@@ -46,7 +46,7 @@ export const Footer = () => {
               </a>
               <div className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                Chennai, Tamil Nadu, India
+                Hyderabad, Telangana, India
               </div>
             </div>
           </div>
