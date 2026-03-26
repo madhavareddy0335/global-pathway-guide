@@ -32,6 +32,10 @@ const faqs = [
     q: "What support do I get after reaching the university?",
     a: "We provide airport pickup, hostel arrangement, university registration help, local SIM card, bank account opening support, and ongoing academic guidance throughout your course.",
   },
+  {
+    q: "Where are MPR Global Education's offices located?",
+    a: "We have two offices — one in Kothapet, Hyderabad (518, 5th Floor, PVT Market Building) and one in Hanamkonda, Warangal (2nd Floor, Green Square Plaza). Walk-ins are welcome Mon-Sat.",
+  },
 ];
 
 export const FAQSection = () => {

@@ -5,9 +5,9 @@ import { Shield, Users, Globe, FileCheck, Headphones, Award } from "lucide-react
 const features = [
   { icon: Shield, title: "NMC / WHO Recognized", desc: "All our partner universities are fully recognized by NMC, WHO, and respective country boards." },
   { icon: Users, title: "End-to-End Support", desc: "From counselling to visa, travel, and post-arrival support — we're with you at every step." },
-  { icon: Globe, title: "13+ Countries", desc: "Choose from a wide network of partner universities across Europe, Asia, and beyond." },
+  { icon: Globe, title: "10+ Countries", desc: "Choose from a wide network of partner universities across Europe, Asia, and beyond." },
   { icon: FileCheck, title: "Hassle-Free Admissions", desc: "No capitation fees, transparent process, and guaranteed admission guidance." },
-  { icon: Headphones, title: "24/7 Counselling", desc: "Talk to our expert counsellors anytime — via call, WhatsApp, or in-person at our office." },
+  { icon: Headphones, title: "24/7 Counselling", desc: "Talk to our expert counsellors anytime — via call, WhatsApp, or in-person at our offices in Hyderabad & Warangal." },
   { icon: Award, title: "5,000+ Success Stories", desc: "Thousands of students trust MPR Global Education for their overseas education journey." },
 ];
 
