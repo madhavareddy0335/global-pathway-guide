@@ -65,7 +65,7 @@ const handCraftedDetails: Record<string, CollegeDetailData> = {
         "Receive official admission/invitation letter (2-3 weeks)",
         "Complete document verification and apostille",
         "Apply for Russian student visa at the embassy",
-        "Attend pre-departure briefing by KMR team",
+        "Attend pre-departure briefing by MPR team",
         "Travel to Kazan — airport pickup arranged by university",
       ],
       eligibility: [
@@ -141,7 +141,7 @@ const handCraftedDetails: Record<string, CollegeDetailData> = {
     admissions: {
       process: [
         "Qualify NEET UG",
-        "Apply through KMR with required documents",
+        "Apply through MPR with required documents",
         "Receive admission letter (1-2 weeks)",
         "No visa required for entry — visa-free for Indians",
         "Obtain residence permit after arrival",
@@ -286,7 +286,7 @@ function generateDetailFromListing(slug: string): CollegeDetailData | null {
     hostel: "Student accommodation available with modern amenities. Contact MPR Global Education for details.",
     indianFood: isMBBS ? "Indian food options available near the university. Contact us for details." : "International food options available in the city.",
     faqs: [
-      { q: `Is ${college.name} good for ${college.program}?`, a: `Yes, ${college.name} is a reputed institution in ${college.country} with ${college.ranking} status. Contact KMR for more details.` },
+      { q: `Is ${college.name} good for ${college.program}?`, a: `Yes, ${college.name} is a reputed institution in ${college.country} with ${college.ranking} status. Contact MPR for more details.` },
       { q: "What is the admission process?", a: "Contact MPR Global Education for complete guidance on the admission process, documentation, and visa support." },
       { q: `What is the fee structure?`, a: `The tuition fee is approximately ${college.fees}. Contact us for complete cost breakdown including hostel and living expenses.` },
     ],

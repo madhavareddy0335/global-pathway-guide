@@ -56,7 +56,7 @@ const About = () => (
     {/* Values */}
     <section className="py-16 md:py-24 section-light">
       <div className="container">
-        <SectionTitle label="Our Values" title="What Sets KMR Apart" />
+        <SectionTitle label="Our Values" title="What Sets MPR Apart" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {values.map((v, i) => {
             const Icon = v.icon;

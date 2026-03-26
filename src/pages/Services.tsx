@@ -46,7 +46,7 @@ const Services = () => (
 
     <section className="py-16 md:py-24 section-light">
       <div className="container max-w-3xl text-center">
-        <SectionTitle label="Our Promise" title="The KMR Guarantee" />
+        <SectionTitle label="Our Promise" title="The MPR Guarantee" />
         <AnimateIn animation="fade-up">
           <div className="space-y-4 text-left">
             {[

@@ -107,7 +107,7 @@ export const programsData: Record<string, ProgramData> = {
     admissionSteps: [
       "Research programs and shortlist universities based on your profile",
       "Prepare and take standardized tests (GRE, IELTS/TOEFL)",
-      "Consult KMR for personalized university recommendations",
+      "Consult MPR for personalized university recommendations",
       "Prepare SOP, LORs, resume, and academic transcripts",
       "Submit applications before intake deadlines",
       "Receive offer letters and choose your preferred university",

@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Arjun Mehta",
     course: "MS in Germany",
-    text: "I was confused between UK and Germany. The career counselling team at KMR helped me understand the tuition advantage in Germany. Best decision I ever made.",
+    text: "I was confused between UK and Germany. The career counselling team at MPR helped me understand the tuition advantage in Germany. Best decision I ever made.",
     rating: 5,
   },
   {

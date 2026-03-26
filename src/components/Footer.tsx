@@ -40,9 +40,9 @@ export const Footer = () => {
                 <Phone className="w-4 h-4 text-accent shrink-0" />
                 +91 98765 43210
               </a>
-              <a href="mailto:info@kmrglobaleducation.com" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
+              <a href="mailto:info@mprglobaleducation.com" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
                 <Mail className="w-4 h-4 text-accent shrink-0" />
-                info@kmrglobaleducation.com
+                info@mprglobaleducation.com
               </a>
               <div className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />

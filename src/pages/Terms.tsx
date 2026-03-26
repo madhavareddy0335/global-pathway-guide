@@ -42,7 +42,7 @@ const Terms = () => {
                 <p className="text-muted-foreground leading-relaxed">All content on this website, including text, images, and design, is the property of MPR Global Education and may not be reproduced without written permission.</p>
 
                 <h2 className="text-xl font-bold text-foreground">7. Contact</h2>
-                <p className="text-muted-foreground leading-relaxed">For questions about these terms, contact us at <a href="mailto:info@kmrglobaleducation.com" className="text-accent hover:underline">info@kmrglobaleducation.com</a>.</p>
+                <p className="text-muted-foreground leading-relaxed">For questions about these terms, contact us at <a href="mailto:info@mprglobaleducation.com" className="text-accent hover:underline">info@mprglobaleducation.com</a>.</p>
               </div>
             </AnimateIn>
           </div>

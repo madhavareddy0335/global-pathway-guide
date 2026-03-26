@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
-import kmrLogo from "@/assets/kmr-logo.png";
+import kmrLogo from "@/assets/mpr-logo.png";
 
 const programs = [
   { label: "MBBS Abroad", href: "/mbbs-abroad" },

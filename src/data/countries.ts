@@ -57,7 +57,7 @@ export const countriesData: Record<string, CountryData> = {
       "Submit application to KMR with 10th, 12th marksheets and NEET scorecard",
       "Receive admission/invitation letter within 2-3 weeks",
       "Apply for student visa at Russian embassy/consulate",
-      "Attend pre-departure briefing by KMR team",
+      "Attend pre-departure briefing by MPR team",
       "Fly to Russia — airport pickup arranged by university",
     ],
     visaSupport: "KMR provides complete visa assistance including document preparation, embassy appointment scheduling, and mock interview guidance. Student visa processing takes 2-4 weeks.",
@@ -102,7 +102,7 @@ export const countriesData: Record<string, CountryData> = {
     hostel: "Modern university hostels with all amenities including Wi-Fi, laundry, and gym facilities.",
     indianFood: "Indian restaurants and mess facilities available near all major universities. Indian grocery stores in Tbilisi and Batumi.",
     safety: "Georgia is one of the safest countries in Europe with very low crime rates. The country is known for its hospitality and welcoming culture.",
-    admissionProcess: ["Qualify NEET UG", "Apply through KMR with required documents", "Receive admission letter in 1-2 weeks", "Apply for student visa", "Pre-departure orientation", "Travel to Georgia"],
+    admissionProcess: ["Qualify NEET UG", "Apply through MPR with required documents", "Receive admission letter in 1-2 weeks", "Apply for student visa", "Pre-departure orientation", "Travel to Georgia"],
     visaSupport: "Visa-free entry for Indian students with a valid admission letter. Residence permit obtained after arrival.",
     topUniversities: [
       { name: "Tbilisi State Medical University", city: "Tbilisi", fees: "₹3.5L/year", ranking: "#1 in Georgia" },
@@ -127,8 +127,8 @@ export const countriesData: Record<string, CountryData> = {
     whyStudyHere: ["EU-standard medical curriculum", "NMC and WHO recognized", "Affordable fees — ₹22–38 Lakh total", "English medium instruction", "Strong clinical training", "Safe European country", "Easy travel across Europe"],
     educationSystem: "6-year integrated MD program following EU medical education directives.", feeRange: "₹22–38 Lakh total", livingCost: "₹15,000–25,000/month", language: "English medium", recognition: "NMC, WHO recognized",
     hostel: "University hostels with modern amenities.", indianFood: "Indian restaurants available in Belgrade and other major cities.", safety: "Serbia is a safe country with friendly people and low crime rates.",
-    admissionProcess: ["Qualify NEET UG", "Apply through KMR", "Receive admission letter", "Apply for student visa", "Pre-departure orientation", "Travel to Serbia"],
-    visaSupport: "Complete visa support provided by KMR team.",
+    admissionProcess: ["Qualify NEET UG", "Apply through MPR", "Receive admission letter", "Apply for student visa", "Pre-departure orientation", "Travel to Serbia"],
+    visaSupport: "Complete visa support provided by MPR team.",
     topUniversities: [
       { name: "University of Belgrade Faculty of Medicine", city: "Belgrade", fees: "₹4.5L/year", ranking: "Top in Serbia" },
       { name: "University of Novi Sad Medical Faculty", city: "Novi Sad", fees: "₹4L/year" },
@@ -150,8 +150,8 @@ export const countriesData: Record<string, CountryData> = {
     educationSystem: "5-year MD program with integrated clinical training.", feeRange: "₹15–25 Lakh total", livingCost: "₹10,000–18,000/month", language: "English medium", recognition: "NMC, WHO recognized",
     hostel: "Well-maintained hostels with Indian mess facilities.", indianFood: "Indian canteens available at most partner universities. Dedicated Indian food mess in many cities.",
     safety: "Kazakhstan is a safe, stable country with a growing economy and welcoming attitude toward international students.",
-    admissionProcess: ["Qualify NEET UG", "Apply through KMR", "Get admission confirmation", "Visa application", "Pre-departure briefing", "Travel to Kazakhstan"],
-    visaSupport: "Full visa assistance by KMR team.", topUniversities: [
+    admissionProcess: ["Qualify NEET UG", "Apply through MPR", "Get admission confirmation", "Visa application", "Pre-departure briefing", "Travel to Kazakhstan"],
+    visaSupport: "Full visa assistance by MPR team.", topUniversities: [
       { name: "Al-Farabi Kazakh National University", city: "Almaty", fees: "₹2.8L/year" },
       { name: "Kazakh National Medical University", city: "Almaty", fees: "₹3L/year", ranking: "Top medical university" },
       { name: "Semey Medical University", city: "Semey", fees: "₹2.5L/year" },
@@ -172,7 +172,7 @@ export const countriesData: Record<string, CountryData> = {
     whyStudyHere: ["Most affordable MBBS abroad — from ₹12 Lakh", "NMC and WHO recognized", "English medium available", "Indian food facilities", "Safe environment", "Growing medical infrastructure"],
     educationSystem: "5-year MD program.", feeRange: "₹12–22 Lakh total", livingCost: "₹8,000–15,000/month", language: "English medium", recognition: "NMC, WHO recognized",
     hostel: "University hostels available.", indianFood: "Indian food available through mess facilities.", safety: "Uzbekistan is a safe, culturally rich country.",
-    admissionProcess: ["Qualify NEET UG", "Apply through KMR", "Get admission", "Visa processing", "Travel"],
+    admissionProcess: ["Qualify NEET UG", "Apply through MPR", "Get admission", "Visa processing", "Travel"],
     visaSupport: "Full visa support.", topUniversities: [
       { name: "Tashkent Medical Academy", city: "Tashkent", fees: "₹2.2L/year", ranking: "Top in Uzbekistan" },
       { name: "Samarkand State Medical University", city: "Samarkand", fees: "₹2L/year" },
@@ -193,7 +193,7 @@ export const countriesData: Record<string, CountryData> = {
     whyStudyHere: ["Affordable tuition from ₹12 Lakh", "NMC recognized", "English medium", "Safe and peaceful", "Indian student support"],
     educationSystem: "5+1 year program.", feeRange: "₹12–20 Lakh total", livingCost: "₹8,000–12,000/month", language: "English medium", recognition: "NMC, WHO recognized",
     hostel: "University accommodations available.", indianFood: "Indian food options available near universities.", safety: "Safe and peaceful country.",
-    admissionProcess: ["Qualify NEET UG", "Apply via KMR", "Admission confirmation", "Visa & travel"],
+    admissionProcess: ["Qualify NEET UG", "Apply via MPR", "Admission confirmation", "Visa & travel"],
     visaSupport: "Complete visa assistance.", topUniversities: [
       { name: "Avicenna Tajik State Medical University", city: "Dushanbe", fees: "₹2L/year", ranking: "Top in Tajikistan" },
     ],
@@ -209,7 +209,7 @@ export const countriesData: Record<string, CountryData> = {
     whyStudyHere: ["Affordable fees from ₹14 Lakh", "NMC and WHO recognized", "English medium", "Large Indian student community", "Indian food available", "Safe environment"],
     educationSystem: "5+1 year program.", feeRange: "₹14–24 Lakh total", livingCost: "₹8,000–15,000/month", language: "English medium", recognition: "NMC, WHO recognized",
     hostel: "University hostels with basic amenities.", indianFood: "Indian canteens available at most universities.", safety: "Safe for international students.",
-    admissionProcess: ["Qualify NEET UG", "Apply via KMR", "Get admission", "Visa & travel"],
+    admissionProcess: ["Qualify NEET UG", "Apply via MPR", "Get admission", "Visa & travel"],
     visaSupport: "Full visa support.", topUniversities: [
       { name: "Kyrgyz State Medical Academy", city: "Bishkek", fees: "₹2.5L/year", ranking: "Top in Kyrgyzstan" },
       { name: "Osh State University", city: "Osh", fees: "₹2L/year" },

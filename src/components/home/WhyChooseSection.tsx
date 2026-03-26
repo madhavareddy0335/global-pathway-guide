@@ -16,7 +16,7 @@ export const WhyChooseSection = () => {
     <section className="py-20 md:py-28">
       <div className="container">
         <SectionTitle
-          label="Why KMR"
+          label="Why MPR"
           title="Why Students Trust MPR Global Education"
           description="We don't just consult — we commit. Here's what sets us apart from every other overseas education agency."
         />
