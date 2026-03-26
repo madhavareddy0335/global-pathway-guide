@@ -47,7 +47,7 @@ export const Header = () => {
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={kmrLogo} alt="KMR Global Education" className="h-10 md:h-12 w-auto" />
+          <img src={kmrLogo} alt="MPR Global Education" className="h-10 md:h-12 w-auto" />
         </Link>
 
         {/* Desktop Nav */}

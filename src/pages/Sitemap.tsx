@@ -43,7 +43,7 @@ const sections = [
 
 const Sitemap = () => {
   useEffect(() => {
-    document.title = "Sitemap — KMR Global Education";
+    document.title = "Sitemap — MPR Global Education";
     window.scrollTo(0, 0);
   }, []);
 

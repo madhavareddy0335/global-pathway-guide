@@ -61,7 +61,7 @@ const handCraftedDetails: Record<string, CollegeDetailData> = {
     admissions: {
       process: [
         "Qualify NEET UG with required cutoff score",
-        "Submit application through KMR Global Education with documents",
+        "Submit application through MPR Global Education with documents",
         "Receive official admission/invitation letter (2-3 weeks)",
         "Complete document verification and apostille",
         "Apply for Russian student visa at the embassy",
@@ -107,7 +107,7 @@ const handCraftedDetails: Record<string, CollegeDetailData> = {
     scholarships: [
       { name: "Russian Government Scholarship", amount: "Full tuition waiver", eligibility: "Outstanding academic performance in 12th grade" },
       { name: "KFU Merit Scholarship", amount: "20-50% tuition discount", eligibility: "NEET score above 400/720" },
-      { name: "KMR Education Grant", amount: "₹50,000 one-time", eligibility: "Students from economically weaker sections" },
+      { name: "MPR Education Grant", amount: "₹50,000 one-time", eligibility: "Students from economically weaker sections" },
     ],
     hostel: "Modern dormitories with 24/7 security, Wi-Fi, heating, common areas, and kitchen facilities. Rooms are shared (2-3 students) with private bathrooms. Hostel fee: ₹15,000-20,000/year.",
     indianFood: "Dedicated Indian mess on campus serving North & South Indian food. Multiple Indian restaurants in Kazan city.",
@@ -192,7 +192,7 @@ const handCraftedDetails: Record<string, CollegeDetailData> = {
 
 const mbbsAdmissionProcess = [
   "Qualify NEET UG with required cutoff",
-  "Submit application through KMR Global Education",
+  "Submit application through MPR Global Education",
   "Receive official admission/invitation letter",
   "Complete document verification and apostille",
   "Apply for student visa",
@@ -204,7 +204,7 @@ const msAdmissionProcess = [
   "Complete bachelor's degree with required GPA",
   "Clear GRE/GMAT (if required)",
   "Clear IELTS/TOEFL for English proficiency",
-  "Submit application through KMR Global Education",
+  "Submit application through MPR Global Education",
   "Receive admission offer letter",
   "Apply for student visa",
   "Travel — orientation arranged by university",
@@ -242,7 +242,7 @@ function generateDetailFromListing(slug: string): CollegeDetailData | null {
     ranking: college.ranking,
     established: "-",
     recognition: isMBBS ? "NMC, WHO recognized" : "Internationally recognized",
-    overview: `${college.name} is a prestigious institution located in ${college.city}, ${college.country}. It offers high-quality ${college.program} programs with modern facilities, experienced faculty, and strong support for international students. Contact KMR Global Education for detailed information about courses, fees, and admission process.`,
+    overview: `${college.name} is a prestigious institution located in ${college.city}, ${college.country}. It offers high-quality ${college.program} programs with modern facilities, experienced faculty, and strong support for international students. Contact MPR Global Education for detailed information about courses, fees, and admission process.`,
     highlights: [
       `Located in ${college.city}, ${college.country}`,
       `${college.ranking}`,
@@ -263,7 +263,7 @@ function generateDetailFromListing(slug: string): CollegeDetailData | null {
       ],
     },
     placements: {
-      overview: `Graduates from ${college.name} have strong career prospects globally. Contact KMR Global Education for detailed placement statistics.`,
+      overview: `Graduates from ${college.name} have strong career prospects globally. Contact MPR Global Education for detailed placement statistics.`,
       avgPackage: isMBBS ? "₹5-10 LPA (post-FMGE)" : "Varies by specialization",
       highestPackage: isMBBS ? "₹15+ LPA" : "Varies by role & country",
       topRecruiters: isMBBS
@@ -281,13 +281,13 @@ function generateDetailFromListing(slug: string): CollegeDetailData | null {
     ],
     scholarships: [
       { name: "Merit-Based Scholarship", amount: "Contact for details", eligibility: "Outstanding academic performance" },
-      { name: "KMR Education Grant", amount: "₹50,000 one-time", eligibility: "Students from economically weaker sections" },
+      { name: "MPR Education Grant", amount: "₹50,000 one-time", eligibility: "Students from economically weaker sections" },
     ],
-    hostel: "Student accommodation available with modern amenities. Contact KMR Global Education for details.",
+    hostel: "Student accommodation available with modern amenities. Contact MPR Global Education for details.",
     indianFood: isMBBS ? "Indian food options available near the university. Contact us for details." : "International food options available in the city.",
     faqs: [
       { q: `Is ${college.name} good for ${college.program}?`, a: `Yes, ${college.name} is a reputed institution in ${college.country} with ${college.ranking} status. Contact KMR for more details.` },
-      { q: "What is the admission process?", a: "Contact KMR Global Education for complete guidance on the admission process, documentation, and visa support." },
+      { q: "What is the admission process?", a: "Contact MPR Global Education for complete guidance on the admission process, documentation, and visa support." },
       { q: `What is the fee structure?`, a: `The tuition fee is approximately ${college.fees}. Contact us for complete cost breakdown including hostel and living expenses.` },
     ],
   };
@@ -316,11 +316,11 @@ export const defaultCollegeDetail: CollegeDetailData = {
   country: "Abroad", flag: "🌍", city: "International", program: "MBBS/MS",
   fees: "Contact for details", ranking: "Internationally recognized", established: "-",
   recognition: "Internationally recognized",
-  overview: "This is one of our esteemed partner universities. Contact KMR Global Education for detailed information.",
+  overview: "This is one of our esteemed partner universities. Contact MPR Global Education for detailed information.",
   highlights: ["Internationally recognized degrees", "Quality education at affordable fees", "Comprehensive student support", "Modern campus facilities"],
   courses: [{ name: "Medicine / Engineering / Business", duration: "Varies", fees: "Contact for details" }],
   admissions: {
-    process: ["Contact KMR Global Education for the admission process"],
+    process: ["Contact MPR Global Education for the admission process"],
     eligibility: ["Relevant qualifying exam", "Academic transcripts", "Valid passport"],
     importantDates: [],
   },

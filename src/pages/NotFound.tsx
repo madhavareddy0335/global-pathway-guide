@@ -7,7 +7,7 @@ import { Home, ArrowRight } from "lucide-react";
 
 const NotFound = () => {
   useEffect(() => {
-    document.title = "Page Not Found — KMR Global Education";
+    document.title = "Page Not Found — MPR Global Education";
   }, []);
 
   return (

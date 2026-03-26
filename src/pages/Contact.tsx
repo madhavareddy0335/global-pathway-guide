@@ -9,14 +9,14 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Hi KMR Global Education!%0A%0AName: ${form.name}%0APhone: ${form.phone}%0ACourse: ${form.course}%0ACountry: ${form.country}%0AMessage: ${form.message}`;
+    const text = `Hi MPR Global Education!%0A%0AName: ${form.name}%0APhone: ${form.phone}%0ACourse: ${form.course}%0ACountry: ${form.country}%0AMessage: ${form.message}`;
     window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
   };
 
   return (
     <StandardPageTemplate
-      metaTitle="Contact KMR Global Education — Free Counselling & Support"
-      metaDescription="Contact KMR Global Education for free overseas education counselling. Call, WhatsApp, or visit our office. We're here to help."
+      metaTitle="Contact MPR Global Education — Free Counselling & Support"
+      metaDescription="Contact MPR Global Education for free overseas education counselling. Call, WhatsApp, or visit our office. We're here to help."
       heroLabel="Contact Us"
       heroTitle="Get in Touch With Our Experts"
       heroSubtitle="Book a free counselling session or reach out with any questions. No obligations — just honest, expert guidance."

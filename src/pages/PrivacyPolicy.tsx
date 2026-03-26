@@ -5,7 +5,7 @@ import { AnimateIn } from "@/components/AnimateIn";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
-    document.title = "Privacy Policy — KMR Global Education";
+    document.title = "Privacy Policy — MPR Global Education";
     window.scrollTo(0, 0);
   }, []);
 

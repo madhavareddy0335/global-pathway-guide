@@ -22,7 +22,7 @@ export const programsData: Record<string, ProgramData> = {
     heroTitle: "Study MBBS Abroad",
     heroSubtitle: "Pursue your dream of becoming a doctor at globally recognized, NMC/WHO-approved medical universities — at a fraction of Indian private college fees.",
     metaTitle: "MBBS Abroad for Indian Students — Fees, Countries & Admissions",
-    metaDescription: "Study MBBS abroad in NMC & WHO recognized universities. Compare fees, countries, eligibility and admission process. Free counselling by KMR Global Education.",
+    metaDescription: "Study MBBS abroad in NMC & WHO recognized universities. Compare fees, countries, eligibility and admission process. Free counselling by MPR Global Education.",
     overview: "Studying MBBS abroad has become one of the most sought-after paths for Indian students who want a quality medical education without the burden of high fees or capitation charges. Countries like Russia, Georgia, Kazakhstan, Uzbekistan, Serbia, Tajikistan, and Kyrgyzstan offer internationally recognized medical degrees at affordable costs. With English-medium instruction, modern infrastructure, and strong clinical training, MBBS abroad is a viable and rewarding alternative to Indian private medical colleges.",
     whoShouldChoose: [
       "Students who have qualified NEET UG but didn't get a government seat in India",
@@ -49,7 +49,7 @@ export const programsData: Record<string, ProgramData> = {
     ],
     admissionSteps: [
       "Qualify NEET UG with the required cutoff score",
-      "Contact KMR Global Education for free career counselling",
+      "Contact MPR Global Education for free career counselling",
       "Choose the right country and university based on your budget and goals",
       "Submit your application with required documents",
       "Receive your admission/invitation letter from the university",
@@ -80,7 +80,7 @@ export const programsData: Record<string, ProgramData> = {
     heroTitle: "Study MS Abroad",
     heroSubtitle: "Advance your career with a Master's degree from world-class universities in USA, UK, Germany, Australia, and more.",
     metaTitle: "MS Abroad for Indian Students — Universities, Fees & Careers",
-    metaDescription: "Study MS abroad in USA, UK, Germany, Australia. Compare universities, fees, scholarships and career outcomes. Expert counselling by KMR Global Education.",
+    metaDescription: "Study MS abroad in USA, UK, Germany, Australia. Compare universities, fees, scholarships and career outcomes. Expert counselling by MPR Global Education.",
     overview: "A Master of Science (MS) degree from a global university opens doors to advanced career opportunities, cutting-edge research, and higher earning potential. Countries like USA, UK, Germany, Australia, Italy, and Ireland offer diverse MS specializations in engineering, technology, data science, AI, healthcare, and more. With scholarship opportunities, post-study work visas, and strong industry connections, an MS abroad is one of the best investments for your future.",
     whoShouldChoose: [
       "Engineering or science graduates looking to specialize in a global university",

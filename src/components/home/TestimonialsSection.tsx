@@ -30,7 +30,7 @@ export const TestimonialsSection = () => {
         <SectionTitle
           label="Student Stories"
           title="Hear From Our Students"
-          description="Real students, real experiences. Here's what they say about their journey with KMR Global Education."
+          description="Real students, real experiences. Here's what they say about their journey with MPR Global Education."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">

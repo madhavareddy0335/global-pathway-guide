@@ -31,7 +31,7 @@ export const countriesData: Record<string, CountryData> = {
     flag: "🇷🇺",
     program: "MBBS",
     metaTitle: "MBBS in Russia for Indian Students 2026 — Fees, Universities & Process",
-    metaDescription: "Study MBBS in Russia in top NMC recognized universities. Fees from ₹20 Lakh. Complete admission & visa support by KMR Global Education.",
+    metaDescription: "Study MBBS in Russia in top NMC recognized universities. Fees from ₹20 Lakh. Complete admission & visa support by MPR Global Education.",
     heroTitle: "Study MBBS in Russia",
     heroSubtitle: "World-class medical education at NMC/WHO recognized universities with a legacy of producing top doctors globally.",
     overview: "Russia has been a top destination for Indian medical students for decades. With over 50 government-approved medical universities, Russia offers high-quality MBBS programs in English medium at affordable tuition fees. The country boasts a strong tradition of medical education, advanced hospital infrastructure, and globally recognized degrees.",
@@ -89,7 +89,7 @@ export const countriesData: Record<string, CountryData> = {
     flag: "🇬🇪",
     program: "MBBS",
     metaTitle: "MBBS in Georgia for Indian Students 2026 — Fees & Admissions",
-    metaDescription: "Study MBBS in Georgia at European-standard universities. Affordable fees, NMC recognized. Free counselling by KMR Global Education.",
+    metaDescription: "Study MBBS in Georgia at European-standard universities. Affordable fees, NMC recognized. Free counselling by MPR Global Education.",
     heroTitle: "Study MBBS in Georgia",
     heroSubtitle: "European-standard medical education at affordable costs with NMC/WHO recognition and a welcoming student environment.",
     overview: "Georgia has emerged as one of the most popular destinations for Indian students seeking quality MBBS education in Europe. Located at the crossroads of Europe and Asia, Georgia offers a unique blend of European educational standards, affordable fees, and a safe, student-friendly environment.",
@@ -121,7 +121,7 @@ export const countriesData: Record<string, CountryData> = {
   "mbbs-in-serbia": {
     slug: "mbbs-in-serbia", name: "Serbia", flag: "🇷🇸", program: "MBBS",
     metaTitle: "MBBS in Serbia for Indian Students — Fees, Universities & Process",
-    metaDescription: "Study MBBS in Serbia at EU-standard universities. NMC recognized degrees. Free counselling by KMR Global Education.",
+    metaDescription: "Study MBBS in Serbia at EU-standard universities. NMC recognized degrees. Free counselling by MPR Global Education.",
     heroTitle: "Study MBBS in Serbia", heroSubtitle: "European medical education in the heart of the Balkans with globally recognized degrees and modern clinical training.",
     overview: "Serbia offers high-quality medical education following European standards. Located in Southeast Europe, Serbian medical universities provide comprehensive training with modern facilities and experienced faculty.",
     whyStudyHere: ["EU-standard medical curriculum", "NMC and WHO recognized", "Affordable fees — ₹22–38 Lakh total", "English medium instruction", "Strong clinical training", "Safe European country", "Easy travel across Europe"],
@@ -143,7 +143,7 @@ export const countriesData: Record<string, CountryData> = {
   "mbbs-in-kazakhstan": {
     slug: "mbbs-in-kazakhstan", name: "Kazakhstan", flag: "🇰🇿", program: "MBBS",
     metaTitle: "MBBS in Kazakhstan for Indian Students — Affordable & NMC Recognized",
-    metaDescription: "Study MBBS in Kazakhstan. Affordable fees from ₹15 Lakh. NMC/WHO recognized. Expert guidance by KMR Global Education.",
+    metaDescription: "Study MBBS in Kazakhstan. Affordable fees from ₹15 Lakh. NMC/WHO recognized. Expert guidance by MPR Global Education.",
     heroTitle: "Study MBBS in Kazakhstan", heroSubtitle: "Affordable, high-quality medical education with Indian food facilities and strong Indian student communities.",
     overview: "Kazakhstan is rapidly becoming a preferred destination for Indian MBBS aspirants. With affordable fees, modern infrastructure, NMC recognition, and a welcoming environment, Kazakhstan offers excellent value for medical education.",
     whyStudyHere: ["Very affordable tuition — ₹15–25 Lakh total", "NMC and WHO recognized", "Indian food and mess available", "English medium instruction", "5-year program (shorter duration)", "Strong Indian student community", "Modern university infrastructure"],
@@ -166,7 +166,7 @@ export const countriesData: Record<string, CountryData> = {
   "mbbs-in-uzbekistan": {
     slug: "mbbs-in-uzbekistan", name: "Uzbekistan", flag: "🇺🇿", program: "MBBS",
     metaTitle: "MBBS in Uzbekistan — Most Affordable Medical Education Abroad",
-    metaDescription: "Study MBBS in Uzbekistan from ₹12 Lakh. NMC recognized. Free counselling by KMR Global Education.",
+    metaDescription: "Study MBBS in Uzbekistan from ₹12 Lakh. NMC recognized. Free counselling by MPR Global Education.",
     heroTitle: "Study MBBS in Uzbekistan", heroSubtitle: "One of the most affordable destinations for MBBS abroad with NMC recognition and excellent student support.",
     overview: "Uzbekistan offers some of the most affordable MBBS programs in the world without compromising on quality. The country's medical universities are NMC and WHO recognized, making it an attractive option for budget-conscious students.",
     whyStudyHere: ["Most affordable MBBS abroad — from ₹12 Lakh", "NMC and WHO recognized", "English medium available", "Indian food facilities", "Safe environment", "Growing medical infrastructure"],
@@ -187,7 +187,7 @@ export const countriesData: Record<string, CountryData> = {
   "mbbs-in-tajikistan": {
     slug: "mbbs-in-tajikistan", name: "Tajikistan", flag: "🇹🇯", program: "MBBS",
     metaTitle: "MBBS in Tajikistan — Affordable Medical Education for Indian Students",
-    metaDescription: "Study MBBS in Tajikistan at affordable fees. NMC recognized. Complete support by KMR Global Education.",
+    metaDescription: "Study MBBS in Tajikistan at affordable fees. NMC recognized. Complete support by MPR Global Education.",
     heroTitle: "Study MBBS in Tajikistan", heroSubtitle: "Budget-friendly MBBS with NMC recognition and supportive learning environment.",
     overview: "Tajikistan offers affordable medical education with NMC-recognized universities, making it an emerging destination for Indian MBBS aspirants looking for quality education within a limited budget.",
     whyStudyHere: ["Affordable tuition from ₹12 Lakh", "NMC recognized", "English medium", "Safe and peaceful", "Indian student support"],
@@ -203,7 +203,7 @@ export const countriesData: Record<string, CountryData> = {
   "mbbs-in-kyrgyzstan": {
     slug: "mbbs-in-kyrgyzstan", name: "Kyrgyzstan", flag: "🇰🇬", program: "MBBS",
     metaTitle: "MBBS in Kyrgyzstan — Affordable & WHO Recognized for Indians",
-    metaDescription: "Study MBBS in Kyrgyzstan at budget-friendly fees. NMC/WHO recognized. Free guidance by KMR Global Education.",
+    metaDescription: "Study MBBS in Kyrgyzstan at budget-friendly fees. NMC/WHO recognized. Free guidance by MPR Global Education.",
     heroTitle: "Study MBBS in Kyrgyzstan", heroSubtitle: "Budget-friendly medical education with NMC recognition, Indian student communities, and supportive environment.",
     overview: "Kyrgyzstan is a popular and affordable destination for MBBS, known for its NMC/WHO recognized medical universities and welcoming Indian student communities.",
     whyStudyHere: ["Affordable fees from ₹14 Lakh", "NMC and WHO recognized", "English medium", "Large Indian student community", "Indian food available", "Safe environment"],
@@ -224,7 +224,7 @@ export const countriesData: Record<string, CountryData> = {
   "ms-in-usa": {
     slug: "ms-in-usa", name: "USA", flag: "🇺🇸", program: "MS",
     metaTitle: "MS in USA for Indian Students — Universities, Fees & OPT Guide",
-    metaDescription: "Study MS in USA at top universities. Compare fees, scholarships, OPT opportunities. Expert guidance by KMR Global Education.",
+    metaDescription: "Study MS in USA at top universities. Compare fees, scholarships, OPT opportunities. Expert guidance by MPR Global Education.",
     heroTitle: "Study MS in USA", heroSubtitle: "Access world-leading universities, cutting-edge research, and unmatched career opportunities in the United States.",
     overview: "The USA is the #1 destination for Indian students pursuing an MS degree. With over 4,000 universities, the US offers unparalleled diversity in programs, world-class research facilities, and strong industry connections through OPT and STEM extensions.",
     whyStudyHere: ["Home to top universities globally (MIT, Stanford, CMU, etc.)", "3-year OPT for STEM graduates", "Highest ROI for MS graduates", "Diverse specializations and research opportunities", "Strong Indian alumni network", "Industry-driven curriculum", "Access to Silicon Valley and tech hubs"],
@@ -250,7 +250,7 @@ export const countriesData: Record<string, CountryData> = {
   "ms-in-uk": {
     slug: "ms-in-uk", name: "UK", flag: "🇬🇧", program: "MS",
     metaTitle: "MS in UK for Indian Students — 1-Year Programs, Fees & PSW Visa",
-    metaDescription: "Study MS in UK with 1-year programs. 2-year post-study work visa. Free counselling by KMR Global Education.",
+    metaDescription: "Study MS in UK with 1-year programs. 2-year post-study work visa. Free counselling by MPR Global Education.",
     heroTitle: "Study MS in UK", heroSubtitle: "Complete your Master's in just 1 year at prestigious British universities with a 2-year post-study work visa.",
     overview: "The UK offers intensive 1-year Master's programs at globally ranked universities. With the Graduate Route (2-year PSW visa), students can gain valuable work experience after graduation.",
     whyStudyHere: ["1-year Master's programs (cost and time efficient)", "2-year post-study work visa (Graduate Route)", "Russell Group universities", "Strong research heritage", "Multicultural environment", "Global recognition"],
@@ -272,7 +272,7 @@ export const countriesData: Record<string, CountryData> = {
   "ms-in-australia": {
     slug: "ms-in-australia", name: "Australia", flag: "🇦🇺", program: "MS",
     metaTitle: "MS in Australia for Indian Students — Universities, PR & Fees",
-    metaDescription: "Study MS in Australia with PR pathway. Compare universities and fees. Free counselling by KMR Global Education.",
+    metaDescription: "Study MS in Australia with PR pathway. Compare universities and fees. Free counselling by MPR Global Education.",
     heroTitle: "Study MS in Australia", heroSubtitle: "High-quality education with post-study work rights and potential pathway to permanent residency.",
     overview: "Australia is a top choice for Indian MS students due to its world-class universities, post-study work visa (2-4 years), and pathway to permanent residency through skilled migration.",
     whyStudyHere: ["Post-study work visa (2-4 years)", "PR pathway through skilled migration", "8 universities in global top 100", "High quality of life", "Part-time work allowed", "Multicultural society"],
@@ -294,7 +294,7 @@ export const countriesData: Record<string, CountryData> = {
   "ms-in-germany": {
     slug: "ms-in-germany", name: "Germany", flag: "🇩🇪", program: "MS",
     metaTitle: "MS in Germany for Indian Students — Free Tuition & Job Seeker Visa",
-    metaDescription: "Study MS in Germany with free/low tuition at public universities. 18-month job seeker visa. Free guidance by KMR Global Education.",
+    metaDescription: "Study MS in Germany with free/low tuition at public universities. 18-month job seeker visa. Free guidance by MPR Global Education.",
     heroTitle: "Study MS in Germany", heroSubtitle: "World-class engineering education with virtually free tuition at public universities and excellent career prospects.",
     overview: "Germany is Europe's largest economy and offers exceptional MS programs with little to no tuition fees at public universities. The country is ideal for engineering, technology, and research-focused students.",
     whyStudyHere: ["Free/low tuition at public universities", "18-month post-study job seeker visa", "Europe's strongest economy", "World-class engineering programs", "No GRE required", "Research-intensive universities"],
@@ -317,7 +317,7 @@ export const countriesData: Record<string, CountryData> = {
   "ms-in-italy": {
     slug: "ms-in-italy", name: "Italy", flag: "🇮🇹", program: "MS",
     metaTitle: "MS in Italy for Indian Students — Low Fees & EU Opportunities",
-    metaDescription: "Study MS in Italy with fees as low as €1,000/year. EU career opportunities. Free counselling by KMR Global Education.",
+    metaDescription: "Study MS in Italy with fees as low as €1,000/year. EU career opportunities. Free counselling by MPR Global Education.",
     heroTitle: "Study MS in Italy", heroSubtitle: "Affordable European education with rich cultural heritage and strong industry connections in design, engineering, and sciences.",
     overview: "Italy offers remarkably affordable MS programs at prestigious universities. Known for design, engineering, architecture, and sciences, Italian universities provide excellent education with EU career mobility.",
     whyStudyHere: ["Very low tuition — €1K–4K/year", "Rich cultural and academic heritage", "EU study and work mobility", "Strong in design, engineering, and sciences", "Scholarship opportunities (DSU grants)", "English-taught programs available"],
@@ -338,7 +338,7 @@ export const countriesData: Record<string, CountryData> = {
   "ms-in-ireland": {
     slug: "ms-in-ireland", name: "Ireland", flag: "🇮🇪", program: "MS",
     metaTitle: "MS in Ireland for Indian Students — Stay Back & Tech Hub",
-    metaDescription: "Study MS in Ireland with 2-year stay back option. EU tech hub. Free counselling by KMR Global Education.",
+    metaDescription: "Study MS in Ireland with 2-year stay back option. EU tech hub. Free counselling by MPR Global Education.",
     heroTitle: "Study MS in Ireland", heroSubtitle: "Study in Europe's tech capital with a 2-year stay back visa and access to global tech companies.",
     overview: "Ireland is home to European headquarters of Google, Facebook, Apple, Microsoft, and many more. An MS from Ireland gives you direct access to the EU tech ecosystem with a generous 2-year stay back visa.",
     whyStudyHere: ["EU tech hub — Google, Meta, Apple HQs", "2-year stay back visa", "English-speaking country", "Strong IT and pharma sectors", "Friendly and safe environment", "Post-study work options"],

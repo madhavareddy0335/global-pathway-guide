@@ -30,7 +30,7 @@ export const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <h3 className="text-xl font-bold text-primary-foreground mb-4">
-              KMR Global Education
+              MPR Global Education
             </h3>
             <p className="text-primary-foreground/60 text-sm leading-relaxed mb-6">
               Your trusted partner for overseas education. We guide students through every step — from country selection to visa approval and beyond.
@@ -99,7 +99,7 @@ export const Footer = () => {
 
         <div className="mt-14 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-primary-foreground/40">
-            © {new Date().getFullYear()} KMR Global Education. All rights reserved.
+            © {new Date().getFullYear()} MPR Global Education. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/privacy-policy" className="text-xs text-primary-foreground/40 hover:text-accent transition-colors">

@@ -75,7 +75,7 @@ export const CountrySelectionGuide = () => (
 
 export const BudgetPlanningGuide = () => (
   <CareerLayout
-    metaTitle="Study Abroad Budget Planning Guide | KMR Global Education"
+    metaTitle="Study Abroad Budget Planning Guide | MPR Global Education"
     metaDescription="Plan your study abroad budget. Understand tuition, living costs, visa fees, and financial planning tips."
     heroLabel="Financial Guide" heroTitle="Budget Planning for Study Abroad" heroSubtitle="A comprehensive guide to understanding and planning the finances for your overseas education journey."
     sections={[

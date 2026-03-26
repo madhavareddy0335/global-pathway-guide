@@ -13,7 +13,7 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2015", text: "KMR Global Education founded with a mission to make quality education accessible to every Indian student." },
+  { year: "2015", text: "MPR Global Education founded with a mission to make quality education accessible to every Indian student." },
   { year: "2017", text: "Expanded partnerships to 50+ universities across Russia, Georgia, and Central Asia." },
   { year: "2019", text: "Crossed 1,000 successful student admissions across MBBS and MS programs." },
   { year: "2021", text: "Launched MS abroad division covering USA, UK, Germany, Australia, and more." },
@@ -23,11 +23,11 @@ const milestones = [
 
 const About = () => (
   <StandardPageTemplate
-    metaTitle="About KMR Global Education — Trusted Overseas Education Consultancy"
-    metaDescription="Learn about KMR Global Education, India's trusted overseas education consultancy helping 5,000+ students study MBBS, MS, MBA abroad."
+    metaTitle="About MPR Global Education — Trusted Overseas Education Consultancy"
+    metaDescription="Learn about MPR Global Education, India's trusted overseas education consultancy helping 5,000+ students study MBBS, MS, MBA abroad."
     heroLabel="About Us"
     heroTitle="Your Trusted Partner in Overseas Education"
-    heroSubtitle="KMR Global Education has been guiding Indian students to world-class universities abroad since 2015. We believe every student deserves access to quality education."
+    heroSubtitle="MPR Global Education has been guiding Indian students to world-class universities abroad since 2015. We believe every student deserves access to quality education."
   >
     {/* Mission & Vision */}
     <section className="py-16 md:py-24">

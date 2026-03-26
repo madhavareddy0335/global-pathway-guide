@@ -46,7 +46,7 @@ const CollegeListing = () => {
 
   return (
     <StandardPageTemplate
-      metaTitle="All Partner Colleges & Universities — KMR Global Education"
+      metaTitle="All Partner Colleges & Universities — MPR Global Education"
       metaDescription="Browse all partner universities for MBBS and MS abroad. Compare fees, rankings, and locations. Free counselling by KMR."
       heroLabel="Our Colleges"
       heroTitle="Explore Partner Universities Worldwide"

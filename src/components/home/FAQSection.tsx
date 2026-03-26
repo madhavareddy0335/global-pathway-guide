@@ -41,7 +41,7 @@ export const FAQSection = () => {
         <SectionTitle
           label="Common Questions"
           title="Frequently Asked Questions"
-          description="Get answers to the most common queries about studying abroad with KMR Global Education."
+          description="Get answers to the most common queries about studying abroad with MPR Global Education."
         />
 
         <div className="max-w-3xl mx-auto">

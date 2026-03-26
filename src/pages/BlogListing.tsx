@@ -16,8 +16,8 @@ const blogPosts = [
 
 const BlogListing = () => (
   <StandardPageTemplate
-    metaTitle="Blog — Study Abroad Guides & Articles | KMR Global Education"
-    metaDescription="Expert articles on MBBS abroad, MS abroad, visa guides, fee comparisons, career planning, and more by KMR Global Education."
+    metaTitle="Blog — Study Abroad Guides & Articles | MPR Global Education"
+    metaDescription="Expert articles on MBBS abroad, MS abroad, visa guides, fee comparisons, career planning, and more by MPR Global Education."
     heroLabel="Our Blog"
     heroTitle="Guides, Articles & Expert Insights"
     heroSubtitle="Stay informed with our latest articles on admissions, country comparisons, exam tips, and career planning."

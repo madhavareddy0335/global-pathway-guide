@@ -4,7 +4,7 @@ import { AnimateIn } from "@/components/AnimateIn";
 
 export const CTASection = () => {
   const phone = "919876543210";
-  const message = encodeURIComponent("Hi KMR Global Education, I want to study abroad. Please help me with guidance.");
+  const message = encodeURIComponent("Hi MPR Global Education, I want to study abroad. Please help me with guidance.");
 
   return (
     <section className="py-20 md:py-28 hero-gradient relative overflow-hidden">

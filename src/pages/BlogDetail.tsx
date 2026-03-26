@@ -28,7 +28,7 @@ const articles: Record<string, { title: string; category: string; date: string; 
       "3. Australia — Strong Salary + PR Pathway: Higher tuition (AUD 20K-45K/year) but compensated by post-study work visas (2-4 years) and a clear pathway to permanent residency through skilled migration.",
       "4. Ireland — Tech Hub Access: As the European HQ for Google, Meta, Apple, and Microsoft, Ireland offers direct access to tech careers. The 2-year stay back visa and competitive salaries (€35K-€55K) make it attractive.",
       "5. UK — Speed and Prestige: 1-year programs mean lower total cost and faster career entry. The 2-year Graduate Route visa has significantly improved UK's ROI compared to pre-2021.",
-      "The best country for you depends on your field, budget, and long-term goals. Contact KMR Global Education for a personalized ROI analysis based on your profile.",
+      "The best country for you depends on your field, budget, and long-term goals. Contact MPR Global Education for a personalized ROI analysis based on your profile.",
     ],
   },
 };
@@ -39,7 +39,7 @@ const defaultArticle = {
   content: [
     "This article is being prepared by our expert content team. Stay tuned for in-depth insights on studying abroad.",
     "In the meantime, feel free to explore our other articles or contact our counsellors for personalized guidance.",
-    "KMR Global Education publishes regular content on admissions, visa guides, fee comparisons, career planning, and student experiences abroad.",
+    "MPR Global Education publishes regular content on admissions, visa guides, fee comparisons, career planning, and student experiences abroad.",
   ],
 };
 
@@ -49,7 +49,7 @@ const BlogDetail = () => {
 
   return (
     <StandardPageTemplate
-      metaTitle={`${article.title} | KMR Global Education Blog`}
+      metaTitle={`${article.title} | MPR Global Education Blog`}
       metaDescription={article.content[0]?.substring(0, 155) + "..."}
       heroLabel={article.category}
       heroTitle={article.title}
@@ -59,7 +59,7 @@ const BlogDetail = () => {
         <div className="container max-w-3xl">
           <AnimateIn animation="fade-up">
             <div className="flex items-center gap-4 mb-8 text-sm text-muted-foreground">
-              <span className="flex items-center gap-1"><User className="w-3.5 h-3.5" />KMR Team</span>
+              <span className="flex items-center gap-1"><User className="w-3.5 h-3.5" />MPR Team</span>
               <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{article.date}</span>
               <span>{article.readTime}</span>
             </div>

@@ -8,7 +8,7 @@ const features = [
   { icon: Globe, title: "13+ Countries", desc: "Choose from a wide network of partner universities across Europe, Asia, and beyond." },
   { icon: FileCheck, title: "Hassle-Free Admissions", desc: "No capitation fees, transparent process, and guaranteed admission guidance." },
   { icon: Headphones, title: "24/7 Counselling", desc: "Talk to our expert counsellors anytime — via call, WhatsApp, or in-person at our office." },
-  { icon: Award, title: "5,000+ Success Stories", desc: "Thousands of students trust KMR Global Education for their overseas education journey." },
+  { icon: Award, title: "5,000+ Success Stories", desc: "Thousands of students trust MPR Global Education for their overseas education journey." },
 ];
 
 export const WhyChooseSection = () => {
@@ -17,7 +17,7 @@ export const WhyChooseSection = () => {
       <div className="container">
         <SectionTitle
           label="Why KMR"
-          title="Why Students Trust KMR Global Education"
+          title="Why Students Trust MPR Global Education"
           description="We don't just consult — we commit. Here's what sets us apart from every other overseas education agency."
         />
 
