@@ -1,23 +1,23 @@
 import StandardPageTemplate from "@/components/templates/StandardPageTemplate";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SectionTitle } from "@/components/SectionTitle";
-import { Target, Eye, Heart, Users, Globe, Award, CheckCircle } from "lucide-react";
+import { Target, Eye, Heart, Users, Globe, Award } from "lucide-react";
 
 const values = [
   { icon: Target, title: "Student-First Approach", desc: "Every decision we make puts the student's career, budget, and safety first." },
   { icon: Eye, title: "Complete Transparency", desc: "No hidden fees, no misleading promises. We show you the real picture." },
   { icon: Heart, title: "End-to-End Care", desc: "From first consultation to post-arrival support — we never leave you alone." },
   { icon: Users, title: "Experienced Counsellors", desc: "Our team has years of experience in overseas education and university partnerships." },
-  { icon: Globe, title: "Global Network", desc: "Direct partnerships with 150+ universities across 13+ countries." },
+  { icon: Globe, title: "Global Network", desc: "Direct partnerships with 150+ universities across 10+ countries." },
   { icon: Award, title: "Proven Track Record", desc: "5,000+ students successfully guided to their dream universities." },
 ];
 
 const milestones = [
-  { year: "2015", text: "MPR Global Education founded with a mission to make quality education accessible to every Indian student." },
+  { year: "2015", text: "MPR Global Education founded by Dr. Pradeep Reddy with a mission to make quality education accessible to every Indian student." },
   { year: "2017", text: "Expanded partnerships to 50+ universities across Russia, Georgia, and Central Asia." },
   { year: "2019", text: "Crossed 1,000 successful student admissions across MBBS and MS programs." },
-  { year: "2021", text: "Launched MS abroad division covering USA, UK, Germany, Australia, and more." },
-  { year: "2023", text: "Reached 3,500+ successful admissions. Opened new counselling centres across India." },
+  { year: "2021", text: "Launched MS abroad division covering USA, UK, Germany, and Ireland." },
+  { year: "2023", text: "Reached 3,500+ successful admissions. Opened second office in Warangal." },
   { year: "2025", text: "5,000+ students guided. Expanded to MBA and Dental abroad programs." },
 ];
 
@@ -27,7 +27,7 @@ const About = () => (
     metaDescription="Learn about MPR Global Education, India's trusted overseas education consultancy helping 5,000+ students study MBBS, MS, MBA abroad."
     heroLabel="About Us"
     heroTitle="Your Trusted Partner in Overseas Education"
-    heroSubtitle="MPR Global Education has been guiding Indian students to world-class universities abroad since 2015. We believe every student deserves access to quality education."
+    heroSubtitle="MPR Global Education has been guiding Indian students to world-class universities abroad since 2015. Led by Dr. Pradeep Reddy, we believe every student deserves access to quality education."
   >
     {/* Mission & Vision */}
     <section className="py-16 md:py-24">
@@ -100,7 +100,7 @@ const About = () => (
           {[
             { value: "5,000+", label: "Students Guided" },
             { value: "150+", label: "Partner Universities" },
-            { value: "13+", label: "Countries" },
+            { value: "10+", label: "Countries" },
             { value: "98%", label: "Visa Success Rate" },
           ].map((s, i) => (
             <AnimateIn key={s.label} animation="scale-in" delay={i * 100}>
