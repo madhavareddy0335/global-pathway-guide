@@ -175,7 +175,7 @@ const handCraftedDetails: Record<string, CollegeDetailData> = {
     ],
     scholarships: [
       { name: "Georgian Government Scholarship", amount: "Partial tuition waiver", eligibility: "Academic excellence" },
-      { name: "KMR Need-Based Grant", amount: "₹50,000", eligibility: "Economically disadvantaged students" },
+      { name: "MPR Need-Based Grant", amount: "₹50,000", eligibility: "Economically disadvantaged students" },
     ],
     hostel: "University hostels near campus with all facilities including Wi-Fi, laundry, and common rooms. Cost: ₹10,000-15,000/year.",
     indianFood: "Indian restaurants and mess facilities in Tbilisi. Growing Indian community ensures food accessibility.",

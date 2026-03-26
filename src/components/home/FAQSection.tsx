@@ -21,7 +21,7 @@ const faqs = [
     a: "Yes, Indian students must qualify NEET UG to be eligible for MBBS admission abroad, as per NMC guidelines. However, the cutoff is much lower compared to Indian medical colleges.",
   },
   {
-    q: "How does KMR help with visa processing?",
+    q: "How does MPR help with visa processing?",
     a: "We provide complete visa support — from document preparation and application filing to embassy scheduling and mock interview practice. Our visa success rate is 98%.",
   },
   {

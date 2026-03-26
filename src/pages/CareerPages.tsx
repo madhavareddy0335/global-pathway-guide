@@ -37,7 +37,7 @@ const CareerLayout = ({ metaTitle, metaDescription, heroLabel, heroTitle, heroSu
 
 export const CareerAfterMBBS = () => (
   <CareerLayout
-    metaTitle="Career After MBBS Abroad — Options, Exams & Paths | KMR"
+    metaTitle="Career After MBBS Abroad — Options, Exams & Paths | MPR"
     metaDescription="Explore career options after MBBS abroad. FMGE, NEXT exam, PG options, and international practice opportunities."
     heroLabel="Career Guidance" heroTitle="Career Path After MBBS Abroad" heroSubtitle="Understand your career options after completing MBBS from a foreign university."
     sections={[
@@ -50,7 +50,7 @@ export const CareerAfterMBBS = () => (
 
 export const CareerAfterMS = () => (
   <CareerLayout
-    metaTitle="Career After MS Abroad — Jobs, Salary & Growth | KMR"
+    metaTitle="Career After MS Abroad — Jobs, Salary & Growth | MPR"
     metaDescription="Explore career paths after MS abroad. Job opportunities, salary expectations, and growth options in USA, UK, Germany."
     heroLabel="Career Guidance" heroTitle="Career Path After MS Abroad" heroSubtitle="Discover the career opportunities awaiting you after completing your Master's degree internationally."
     sections={[
@@ -63,7 +63,7 @@ export const CareerAfterMS = () => (
 
 export const CountrySelectionGuide = () => (
   <CareerLayout
-    metaTitle="How to Choose the Right Country for Studies Abroad | KMR"
+    metaTitle="How to Choose the Right Country for Studies Abroad | MPR"
     metaDescription="A complete guide to selecting the best country for MBBS, MS, MBA abroad. Compare costs, career scope, and lifestyle."
     heroLabel="Decision Guide" heroTitle="How to Choose the Right Country" heroSubtitle="Compare destinations based on what matters most — fees, career scope, lifestyle, and recognition."
     sections={[
@@ -87,7 +87,7 @@ export const BudgetPlanningGuide = () => (
 
 export const CourseSelectionGuide = () => (
   <CareerLayout
-    metaTitle="Which Course to Study Abroad? MBBS vs MS vs MBA | KMR"
+    metaTitle="Which Course to Study Abroad? MBBS vs MS vs MBA | MPR"
     metaDescription="Compare MBBS, MS, MBA, and Dental abroad. Find which course aligns with your career goals, budget, and eligibility."
     heroLabel="Course Guide" heroTitle="Which Course Is Right for You?" heroSubtitle="Compare programs to find the perfect match for your academic background, career goals, and budget."
     sections={[

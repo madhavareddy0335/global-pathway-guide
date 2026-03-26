@@ -54,13 +54,13 @@ export const countriesData: Record<string, CountryData> = {
     safety: "Russia is generally safe for international students. Universities have dedicated student welfare departments and 24/7 support. Indian embassies in Moscow and other major cities provide consular assistance.",
     admissionProcess: [
       "Qualify NEET UG with required cutoff",
-      "Submit application to KMR with 10th, 12th marksheets and NEET scorecard",
+      "Submit application to MPR with 10th, 12th marksheets and NEET scorecard",
       "Receive admission/invitation letter within 2-3 weeks",
       "Apply for student visa at Russian embassy/consulate",
       "Attend pre-departure briefing by MPR team",
       "Fly to Russia — airport pickup arranged by university",
     ],
-    visaSupport: "KMR provides complete visa assistance including document preparation, embassy appointment scheduling, and mock interview guidance. Student visa processing takes 2-4 weeks.",
+    visaSupport: "MPR provides complete visa assistance including document preparation, embassy appointment scheduling, and mock interview guidance. Student visa processing takes 2-4 weeks.",
     topUniversities: [
       { name: "Kazan Federal University", city: "Kazan", fees: "₹3.5L/year", ranking: "Top 10 in Russia" },
       { name: "Bashkir State Medical University", city: "Ufa", fees: "₹3L/year", ranking: "Top 15 in Russia" },
@@ -231,7 +231,7 @@ export const countriesData: Record<string, CountryData> = {
     educationSystem: "2-year MS programs with thesis or non-thesis options. Flexible credit system.", feeRange: "$25,000–60,000/year", livingCost: "$800–2,000/month depending on city", language: "English", recognition: "Globally recognized",
     hostel: "On-campus and off-campus housing options. Many students share apartments.", indianFood: "Widely available in all major US cities with large Indian communities.",
     safety: "US campuses have dedicated safety departments. Choose university locations wisely based on safety rankings.",
-    admissionProcess: ["Take GRE and IELTS/TOEFL", "Research and shortlist universities", "Prepare SOP, LORs, resume", "Submit applications (Fall/Spring intake)", "Receive offers and finalize university", "Apply for F-1 student visa", "Pre-departure prep with KMR"],
+    admissionProcess: ["Take GRE and IELTS/TOEFL", "Research and shortlist universities", "Prepare SOP, LORs, resume", "Submit applications (Fall/Spring intake)", "Receive offers and finalize university", "Apply for F-1 student visa", "Pre-departure prep with MPR"],
     visaSupport: "Complete F-1 visa guidance including DS-160, SEVIS payment, embassy interview preparation.", topUniversities: [
       { name: "Massachusetts Institute of Technology", city: "Boston", fees: "$55K/year", ranking: "#1 globally" },
       { name: "Stanford University", city: "California", fees: "$57K/year", ranking: "Top 5" },

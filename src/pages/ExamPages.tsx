@@ -80,7 +80,7 @@ const ExamLayout = ({ metaTitle, metaDescription, heroLabel, heroTitle, heroSubt
 
 export const NeetUGGuide = () => (
   <ExamLayout
-    metaTitle="NEET UG 2026 — Complete Guide, Eligibility & Tips | KMR"
+    metaTitle="NEET UG 2026 — Complete Guide, Eligibility & Tips | MPR"
     metaDescription="NEET UG 2026 guide — eligibility, exam pattern, preparation tips and how it affects MBBS abroad admissions."
     heroLabel="Exam Guide" heroTitle="NEET UG 2026 — Complete Guide" heroSubtitle="Everything you need to know about NEET UG — eligibility, pattern, preparation, and how it connects to studying MBBS abroad."
     overview="NEET UG (National Eligibility cum Entrance Test for Undergraduates) is the mandatory entrance exam for admission to MBBS, BDS, and other medical courses in India. Since 2021, NMC mandates NEET qualification for Indian students seeking MBBS admission abroad as well."
@@ -97,7 +97,7 @@ export const NeetUGGuide = () => (
 
 export const NeetPGGuide = () => (
   <ExamLayout
-    metaTitle="NEET PG 2026 — Guide for MD/MS Admission | KMR"
+    metaTitle="NEET PG 2026 — Guide for MD/MS Admission | MPR"
     metaDescription="NEET PG 2026 complete guide — eligibility, pattern, and preparation tips for PG medical admissions."
     heroLabel="Exam Guide" heroTitle="NEET PG 2026 — Complete Guide" heroSubtitle="Your guide to NEET PG for MD/MS/diploma admissions in Indian medical colleges."
     overview="NEET PG is the entrance exam for postgraduate medical courses (MD/MS/Diploma) in India. It is conducted by NBE (National Board of Examinations) and is mandatory for all MBBS graduates seeking PG medical seats."
@@ -113,7 +113,7 @@ export const NeetPGGuide = () => (
 
 export const EntranceExamsOverview = () => (
   <ExamLayout
-    metaTitle="Entrance Exams for Study Abroad — NEET, GRE, GMAT, IELTS | KMR"
+    metaTitle="Entrance Exams for Study Abroad — NEET, GRE, GMAT, IELTS | MPR"
     metaDescription="Overview of all entrance exams for studying abroad — NEET, GRE, GMAT, IELTS, TOEFL and more."
     heroLabel="Exam Overview" heroTitle="Entrance Exams for Studying Abroad" heroSubtitle="A comprehensive overview of all the key entrance and proficiency exams needed for different study abroad programs."
     overview="Depending on your chosen program and destination country, you may need to take one or more entrance exams. This guide covers all the major tests — from NEET for medical to GRE for engineering to IELTS for language proficiency."

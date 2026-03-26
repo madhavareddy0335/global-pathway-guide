@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: "Priya Ramesh",
     course: "MBBS in Georgia",
-    text: "KMR made the entire process so smooth. From choosing the right university to visa approval — they were with me at every step. I'm now studying at Tbilisi State Medical University!",
+    text: "MPR made the entire process so smooth. From choosing the right university to visa approval — they were with me at every step. I'm now studying at Tbilisi State Medical University!",
     rating: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
   {
     name: "Sneha Krishnan",
     course: "MBBS in Russia",
-    text: "My parents were worried about safety and food in Russia. KMR connected us with current students and showed real hostel photos. That built instant trust.",
+    text: "My parents were worried about safety and food in Russia. MPR connected us with current students and showed real hostel photos. That built instant trust.",
     rating: 5,
   },
 ];

@@ -111,7 +111,7 @@ export const programsData: Record<string, ProgramData> = {
       "Prepare SOP, LORs, resume, and academic transcripts",
       "Submit applications before intake deadlines",
       "Receive offer letters and choose your preferred university",
-      "Apply for student visa with KMR's end-to-end support",
+      "Apply for student visa with MPR's end-to-end support",
       "Attend pre-departure briefing and travel to your university",
     ],
     careerOutcomes: [
@@ -129,7 +129,7 @@ export const programsData: Record<string, ProgramData> = {
       { q: "Can I get a scholarship for MS abroad?", a: "Yes, many universities offer merit-based and need-based scholarships. Germany has virtually free tuition at public universities." },
       { q: "What is the ROI of an MS abroad?", a: "Students typically recover their investment within 2-3 years of working abroad, with salaries often 3-5x higher than India." },
       { q: "Can I work while studying?", a: "Yes, most countries allow 20 hours/week part-time work during studies and full-time during breaks." },
-      { q: "How does KMR help with MS applications?", a: "We provide university shortlisting, SOP review, application management, visa support, and pre-departure guidance." },
+      { q: "How does MPR help with MS applications?", a: "We provide university shortlisting, SOP review, application management, visa support, and pre-departure guidance." },
     ],
   },
 };
