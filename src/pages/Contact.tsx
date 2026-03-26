@@ -1,8 +1,14 @@
 import { useState } from "react";
 import StandardPageTemplate from "@/components/templates/StandardPageTemplate";
 import { AnimateIn } from "@/components/AnimateIn";
-import { SectionTitle } from "@/components/SectionTitle";
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
+
+const phoneNumbers = [
+  { display: "+91 7416868111", raw: "917416868111" },
+  { display: "+91 7799518111", raw: "917799518111" },
+  { display: "+91 7799517111", raw: "917799517111" },
+  { display: "+91 7799519111", raw: "917799519111" },
+];
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", phone: "", course: "", country: "", message: "" });
@@ -80,13 +86,32 @@ const Contact = () => {
             <AnimateIn animation="slide-right">
               <div className="space-y-6">
                 <div className="p-6 rounded-2xl bg-secondary">
-                  <h3 className="font-bold text-foreground mb-4">Contact Details</h3>
+                  <h3 className="font-bold text-foreground mb-4">Contact Numbers</h3>
+                  <div className="space-y-3">
+                    {phoneNumbers.map((p) => (
+                      <div key={p.raw} className="flex gap-3 items-start">
+                        <Phone className="w-5 h-5 text-accent shrink-0" />
+                        <a href={`tel:+${p.raw}`} className="text-sm text-muted-foreground hover:text-accent">{p.display}</a>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="p-6 rounded-2xl bg-secondary">
+                  <h3 className="font-bold text-foreground mb-4">Our Offices</h3>
                   <div className="space-y-4">
                     <div className="flex gap-3 items-start">
-                      <Phone className="w-5 h-5 text-accent shrink-0" />
+                      <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                       <div>
-                        <p className="text-sm font-medium text-foreground">Phone</p>
-                        <a href="tel:+917416868111" className="text-sm text-muted-foreground hover:text-accent">+91 74168 68111</a>
+                        <p className="text-sm font-medium text-foreground">Hyderabad Office</p>
+                        <p className="text-sm text-muted-foreground">518, 5th Floor, PVT Market Building,<br />Kothapet, Hyderabad, Telangana – 500035</p>
+                      </div>
+                    </div>
+                    <div className="flex gap-3 items-start">
+                      <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                      <div>
+                        <p className="text-sm font-medium text-foreground">Warangal Office</p>
+                        <p className="text-sm text-muted-foreground">2nd Floor, Green Square Plaza,<br />Hanamkonda, Warangal, Telangana</p>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start">
@@ -94,13 +119,6 @@ const Contact = () => {
                       <div>
                         <p className="text-sm font-medium text-foreground">Email</p>
                         <a href="mailto:info@mprglobaleducation.com" className="text-sm text-muted-foreground hover:text-accent">info@mprglobaleducation.com</a>
-                      </div>
-                    </div>
-                    <div className="flex gap-3 items-start">
-                      <MapPin className="w-5 h-5 text-accent shrink-0" />
-                      <div>
-                        <p className="text-sm font-medium text-foreground">Office Address</p>
-                        <p className="text-sm text-muted-foreground">123, Anna Salai, Chennai,<br />Tamil Nadu 600002, India</p>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start">

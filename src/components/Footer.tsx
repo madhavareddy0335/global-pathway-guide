@@ -22,6 +22,13 @@ const countryLinks = [
   { label: "MS in Germany", href: "/ms-in-germany" },
 ];
 
+const phoneNumbers = [
+  "7416868111",
+  "7799518111",
+  "7799517111",
+  "7799519111",
+];
+
 export const Footer = () => {
   return (
     <footer className="section-navy">
@@ -35,18 +42,29 @@ export const Footer = () => {
             <p className="text-primary-foreground/60 text-sm leading-relaxed mb-6">
               Your trusted partner for overseas education. We guide students through every step — from country selection to visa approval and beyond.
             </p>
+            <p className="text-xs font-semibold text-accent mb-3">Director: Dr. Pradeep Reddy</p>
             <div className="space-y-3">
-              <a href="tel:+917416868111" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
-                <Phone className="w-4 h-4 text-accent shrink-0" />
-                +91 74168 68111
-              </a>
+              {phoneNumbers.map((num) => (
+                <a key={num} href={`tel:+91${num}`} className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
+                  <Phone className="w-4 h-4 text-accent shrink-0" />
+                  +91 {num}
+                </a>
+              ))}
               <a href="mailto:info@mprglobaleducation.com" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-accent transition-colors">
                 <Mail className="w-4 h-4 text-accent shrink-0" />
                 info@mprglobaleducation.com
               </a>
+            </div>
+
+            {/* Addresses */}
+            <div className="mt-5 space-y-3">
               <div className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                Hyderabad, Telangana, India
+                <span>518, 5th Floor, PVT Market Building, Kothapet, Hyderabad, Telangana – 500035</span>
+              </div>
+              <div className="flex items-start gap-3 text-sm text-primary-foreground/70">
+                <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
+                <span>2nd Floor, Green Square Plaza, Hanamkonda, Warangal, Telangana</span>
               </div>
             </div>
           </div>

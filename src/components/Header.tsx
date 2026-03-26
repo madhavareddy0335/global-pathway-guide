@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
-import kmrLogo from "@/assets/mpr-logo.png";
 
 const programs = [
   { label: "MBBS Abroad", href: "/mbbs-abroad" },
@@ -47,7 +46,9 @@ export const Header = () => {
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={kmrLogo} alt="MPR Global Education" className="h-10 md:h-12 w-auto" />
+          <span className={`text-xl font-extrabold tracking-tight ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
+            MPR <span className="text-accent">Global</span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}
