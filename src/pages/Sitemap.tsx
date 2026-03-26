@@ -14,14 +14,14 @@ const sections = [
   ]},
   { title: "MBBS Countries", links: [
     { label: "MBBS in Russia", href: "/mbbs-in-russia" }, { label: "MBBS in Georgia", href: "/mbbs-in-georgia" },
-    { label: "MBBS in Serbia", href: "/mbbs-in-serbia" }, { label: "MBBS in Kazakhstan", href: "/mbbs-in-kazakhstan" },
+    { label: "MBBS in Kazakhstan", href: "/mbbs-in-kazakhstan" },
     { label: "MBBS in Uzbekistan", href: "/mbbs-in-uzbekistan" }, { label: "MBBS in Tajikistan", href: "/mbbs-in-tajikistan" },
     { label: "MBBS in Kyrgyzstan", href: "/mbbs-in-kyrgyzstan" },
   ]},
   { title: "MS Countries", links: [
     { label: "MS in USA", href: "/ms-in-usa" }, { label: "MS in UK", href: "/ms-in-uk" },
-    { label: "MS in Australia", href: "/ms-in-australia" }, { label: "MS in Germany", href: "/ms-in-germany" },
-    { label: "MS in Italy", href: "/ms-in-italy" }, { label: "MS in Ireland", href: "/ms-in-ireland" },
+    { label: "MS in Germany", href: "/ms-in-germany" },
+    { label: "MS in Ireland", href: "/ms-in-ireland" },
   ]},
   { title: "Career Guides", links: [
     { label: "Career After MBBS", href: "/career/after-mbbs" }, { label: "Career After MS", href: "/career/after-ms" },
@@ -31,7 +31,7 @@ const sections = [
   ]},
   { title: "Exams", links: [
     { label: "NEET UG Guide", href: "/exams/neet-ug" }, { label: "NEET PG Guide", href: "/exams/neet-pg" },
-    { label: "Entrance Exams Overview", href: "/exams/overview" },
+    { label: "All Exams", href: "/exams" },
   ]},
   { title: "Resources", links: [
     { label: "All Colleges", href: "/colleges" }, { label: "Blog", href: "/blog" },
@@ -43,7 +43,7 @@ const sections = [
 
 const Sitemap = () => {
   useEffect(() => {
-    document.title = "Sitemap — KMR Global Education";
+    document.title = "Sitemap — MPR Global Education";
     window.scrollTo(0, 0);
   }, []);
 

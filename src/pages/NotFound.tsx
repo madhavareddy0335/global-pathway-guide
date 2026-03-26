@@ -1,5 +1,5 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { AnimateIn } from "@/components/AnimateIn";
@@ -7,7 +7,7 @@ import { Home, ArrowRight } from "lucide-react";
 
 const NotFound = () => {
   useEffect(() => {
-    document.title = "Page Not Found — KMR Global Education";
+    document.title = "Page Not Found — MPR Global Education";
   }, []);
 
   return (

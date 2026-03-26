@@ -16,7 +16,7 @@ const CollegeDetail = () => {
 
   return (
     <StandardPageTemplate
-      metaTitle={`${college.name} — Fees, Admissions, Placements & Reviews | KMR Global Education`}
+      metaTitle={`${college.name} — Fees, Admissions, Placements & Reviews | MPR Global Education`}
       metaDescription={`Study at ${college.name} in ${college.city}, ${college.country}. Fees: ${college.fees}. Courses, admissions, placements & scholarship info.`}
       heroLabel={`${college.program} in ${college.country}`}
       heroTitle={college.name}

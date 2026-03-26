@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
-import kmrLogo from "@/assets/kmr-logo.png";
 
 const programs = [
   { label: "MBBS Abroad", href: "/mbbs-abroad" },
@@ -47,7 +46,9 @@ export const Header = () => {
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={kmrLogo} alt="KMR Global Education" className="h-10 md:h-12 w-auto" />
+          <span className={`text-xl font-extrabold tracking-tight ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
+            MPR <span className="text-accent">Global</span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}
@@ -105,13 +106,13 @@ export const Header = () => {
 
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="tel:+919876543210"
+            href="tel:+917416868111"
             className={`flex items-center gap-2 text-sm font-medium transition-colors ${
               scrolled ? "text-foreground" : "text-primary-foreground/90"
             }`}
           >
             <Phone className="w-4 h-4" />
-            +91 98765 43210
+            +91 74168 68111
           </a>
           <Link
             to="/contact"

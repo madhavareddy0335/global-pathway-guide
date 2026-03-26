@@ -5,7 +5,7 @@ import { AnimateIn } from "@/components/AnimateIn";
 
 const Terms = () => {
   useEffect(() => {
-    document.title = "Terms & Conditions — KMR Global Education";
+    document.title = "Terms & Conditions — MPR Global Education";
     window.scrollTo(0, 0);
   }, []);
 
@@ -24,7 +24,7 @@ const Terms = () => {
             <AnimateIn animation="fade-up">
               <div className="space-y-6">
                 <h2 className="text-xl font-bold text-foreground">1. Services</h2>
-                <p className="text-muted-foreground leading-relaxed">KMR Global Education provides overseas education counselling, university selection guidance, admission support, visa assistance, and related services. We act as an educational consultancy and facilitator — not as a university or educational institution.</p>
+                <p className="text-muted-foreground leading-relaxed">MPR Global Education provides overseas education counselling, university selection guidance, admission support, visa assistance, and related services. We act as an educational consultancy and facilitator — not as a university or educational institution.</p>
 
                 <h2 className="text-xl font-bold text-foreground">2. Accuracy of Information</h2>
                 <p className="text-muted-foreground leading-relaxed">We strive to provide accurate information about universities, fees, eligibility, and admission processes. However, fees, policies, and requirements may change without notice. Always confirm details with the university directly.</p>
@@ -36,13 +36,13 @@ const Terms = () => {
                 <p className="text-muted-foreground leading-relaxed">Consultancy service fees, if applicable, are communicated before engagement. University tuition and visa fees are paid directly to respective institutions. Refund policies vary by university.</p>
 
                 <h2 className="text-xl font-bold text-foreground">5. Limitation of Liability</h2>
-                <p className="text-muted-foreground leading-relaxed">KMR Global Education is not liable for admission decisions made by universities, visa outcomes by embassies, or any changes in university policies, fees, or recognition status.</p>
+                <p className="text-muted-foreground leading-relaxed">MPR Global Education is not liable for admission decisions made by universities, visa outcomes by embassies, or any changes in university policies, fees, or recognition status.</p>
 
                 <h2 className="text-xl font-bold text-foreground">6. Intellectual Property</h2>
-                <p className="text-muted-foreground leading-relaxed">All content on this website, including text, images, and design, is the property of KMR Global Education and may not be reproduced without written permission.</p>
+                <p className="text-muted-foreground leading-relaxed">All content on this website, including text, images, and design, is the property of MPR Global Education and may not be reproduced without written permission.</p>
 
                 <h2 className="text-xl font-bold text-foreground">7. Contact</h2>
-                <p className="text-muted-foreground leading-relaxed">For questions about these terms, contact us at <a href="mailto:info@kmrglobaleducation.com" className="text-accent hover:underline">info@kmrglobaleducation.com</a>.</p>
+                <p className="text-muted-foreground leading-relaxed">For questions about these terms, contact us at <a href="mailto:info@mprglobaleducation.com" className="text-accent hover:underline">info@mprglobaleducation.com</a>.</p>
               </div>
             </AnimateIn>
           </div>

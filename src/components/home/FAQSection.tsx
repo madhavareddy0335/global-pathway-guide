@@ -21,7 +21,7 @@ const faqs = [
     a: "Yes, Indian students must qualify NEET UG to be eligible for MBBS admission abroad, as per NMC guidelines. However, the cutoff is much lower compared to Indian medical colleges.",
   },
   {
-    q: "How does KMR help with visa processing?",
+    q: "How does MPR help with visa processing?",
     a: "We provide complete visa support — from document preparation and application filing to embassy scheduling and mock interview practice. Our visa success rate is 98%.",
   },
   {
@@ -32,6 +32,10 @@ const faqs = [
     q: "What support do I get after reaching the university?",
     a: "We provide airport pickup, hostel arrangement, university registration help, local SIM card, bank account opening support, and ongoing academic guidance throughout your course.",
   },
+  {
+    q: "Where are MPR Global Education's offices located?",
+    a: "We have two offices — one in Kothapet, Hyderabad (518, 5th Floor, PVT Market Building) and one in Hanamkonda, Warangal (2nd Floor, Green Square Plaza). Walk-ins are welcome Mon-Sat.",
+  },
 ];
 
 export const FAQSection = () => {
@@ -41,7 +45,7 @@ export const FAQSection = () => {
         <SectionTitle
           label="Common Questions"
           title="Frequently Asked Questions"
-          description="Get answers to the most common queries about studying abroad with KMR Global Education."
+          description="Get answers to the most common queries about studying abroad with MPR Global Education."
         />
 
         <div className="max-w-3xl mx-auto">

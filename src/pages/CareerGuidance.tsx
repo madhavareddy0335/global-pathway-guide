@@ -13,7 +13,7 @@ const guidanceTopics = [
 
 const CareerGuidance = () => (
   <StandardPageTemplate
-    metaTitle="Career Guidance — Study Abroad Path Finder | KMR Global Education"
+    metaTitle="Career Guidance — Study Abroad Path Finder | MPR Global Education"
     metaDescription="Expert career guidance for students after 12th, graduation, or MBBS. Find the right course, country, and career path abroad."
     heroLabel="Career Guidance"
     heroTitle="Find Your Perfect Career Path Abroad"

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight, MessageCircle, Phone, MapPin } from "lucide-react";
 import { AnimateIn } from "@/components/AnimateIn";
 
 export const CTASection = () => {
-  const phone = "919876543210";
-  const message = encodeURIComponent("Hi KMR Global Education, I want to study abroad. Please help me with guidance.");
+  const phone = "917416868111";
+  const message = encodeURIComponent("Hi MPR Global Education, I want to study abroad. Please help me with guidance.");
 
   return (
     <section className="py-20 md:py-28 hero-gradient relative overflow-hidden">
@@ -26,8 +26,15 @@ export const CTASection = () => {
 
         <AnimateIn animation="fade-up" delay={200}>
           <p className="mt-5 text-lg text-primary-foreground/60 max-w-lg mx-auto">
-            Book a free counselling session with our experts. No obligations, no hidden fees — just honest guidance.
+            Book a free counselling session with Dr. Pradeep Reddy and our experts. No obligations, no hidden fees — just honest guidance.
           </p>
+        </AnimateIn>
+
+        <AnimateIn animation="fade-up" delay={250}>
+          <div className="mt-3 flex items-center justify-center gap-4 text-sm text-primary-foreground/40">
+            <span className="flex items-center gap-1"><MapPin className="w-3.5 h-3.5" /> Hyderabad</span>
+            <span className="flex items-center gap-1"><MapPin className="w-3.5 h-3.5" /> Warangal</span>
+          </div>
         </AnimateIn>
 
         <AnimateIn animation="fade-up" delay={300}>
@@ -48,6 +55,18 @@ export const CTASection = () => {
               <MessageCircle className="w-4 h-4" />
               WhatsApp Us
             </a>
+          </div>
+        </AnimateIn>
+
+        <AnimateIn animation="fade-up" delay={400}>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3 text-xs text-primary-foreground/40">
+            <a href="tel:+917416868111" className="flex items-center gap-1 hover:text-accent transition-colors"><Phone className="w-3 h-3" /> 7416868111</a>
+            <span>•</span>
+            <a href="tel:+917799518111" className="flex items-center gap-1 hover:text-accent transition-colors"><Phone className="w-3 h-3" /> 7799518111</a>
+            <span>•</span>
+            <a href="tel:+917799517111" className="flex items-center gap-1 hover:text-accent transition-colors"><Phone className="w-3 h-3" /> 7799517111</a>
+            <span>•</span>
+            <a href="tel:+917799519111" className="flex items-center gap-1 hover:text-accent transition-colors"><Phone className="w-3 h-3" /> 7799519111</a>
           </div>
         </AnimateIn>
       </div>

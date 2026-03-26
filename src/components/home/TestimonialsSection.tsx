@@ -6,19 +6,19 @@ const testimonials = [
   {
     name: "Priya Ramesh",
     course: "MBBS in Georgia",
-    text: "KMR made the entire process so smooth. From choosing the right university to visa approval — they were with me at every step. I'm now studying at Tbilisi State Medical University!",
+    text: "MPR made the entire process so smooth. From choosing the right university to visa approval — they were with me at every step. I'm now studying at Tbilisi State Medical University!",
     rating: 5,
   },
   {
     name: "Arjun Mehta",
     course: "MS in Germany",
-    text: "I was confused between UK and Germany. The career counselling team at KMR helped me understand the tuition advantage in Germany. Best decision I ever made.",
+    text: "I was confused between UK and Germany. The career counselling team at MPR helped me understand the tuition advantage in Germany. Best decision I ever made.",
     rating: 5,
   },
   {
     name: "Sneha Krishnan",
     course: "MBBS in Russia",
-    text: "My parents were worried about safety and food in Russia. KMR connected us with current students and showed real hostel photos. That built instant trust.",
+    text: "My parents were worried about safety and food in Russia. MPR connected us with current students and showed real hostel photos. That built instant trust.",
     rating: 5,
   },
 ];
@@ -30,7 +30,7 @@ export const TestimonialsSection = () => {
         <SectionTitle
           label="Student Stories"
           title="Hear From Our Students"
-          description="Real students, real experiences. Here's what they say about their journey with KMR Global Education."
+          description="Real students, real experiences. Here's what they say about their journey with MPR Global Education."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">

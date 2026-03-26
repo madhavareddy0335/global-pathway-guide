@@ -16,8 +16,8 @@ const services = [
 
 const Services = () => (
   <StandardPageTemplate
-    metaTitle="Our Services — KMR Global Education | Complete Study Abroad Support"
-    metaDescription="KMR Global Education offers complete overseas education services — counselling, admission, visa, loans, scholarships, and post-arrival support."
+    metaTitle="Our Services — MPR Global Education | Complete Study Abroad Support"
+    metaDescription="MPR Global Education offers complete overseas education services — counselling, admission, visa, loans, scholarships, and post-arrival support."
     heroLabel="Our Services"
     heroTitle="Complete Study Abroad Support"
     heroSubtitle="From your first enquiry to your first day at university — we handle everything so you can focus on your education."
@@ -46,7 +46,7 @@ const Services = () => (
 
     <section className="py-16 md:py-24 section-light">
       <div className="container max-w-3xl text-center">
-        <SectionTitle label="Our Promise" title="The KMR Guarantee" />
+        <SectionTitle label="Our Promise" title="The MPR Guarantee" />
         <AnimateIn animation="fade-up">
           <div className="space-y-4 text-left">
             {[

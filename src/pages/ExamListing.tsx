@@ -8,7 +8,7 @@ import { examsList } from "@/data/exams";
 const ExamListing = () => {
   return (
     <StandardPageTemplate
-      metaTitle="Entrance Exams for Study Abroad — NEET, GRE, IELTS, TOEFL, GMAT | KMR"
+      metaTitle="Entrance Exams for Study Abroad — NEET, GRE, IELTS, TOEFL, GMAT | MPR"
       metaDescription="Complete guide to all entrance exams for studying abroad — NEET UG, NEET PG, GRE, IELTS, TOEFL, GMAT. Eligibility, dates, preparation tips."
       heroLabel="Exam Guides"
       heroTitle="All Entrance Exams"
