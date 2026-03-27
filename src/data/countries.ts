@@ -309,10 +309,12 @@ export const countriesData: Record<string, CountryData> = {
     hostel: "Studentenwerk housing and private apartments.", indianFood: "Available in major cities like Munich, Berlin, Stuttgart.", safety: "Very safe with excellent public infrastructure.",
     admissionProcess: ["Check uni-assist requirements", "Prepare documents and IELTS", "Apply through uni-assist or direct portal", "Receive admission", "Apply for German student visa", "Open blocked account (€11,208/year)", "Travel to Germany"],
     visaSupport: "Complete German student visa and blocked account support.", topUniversities: [
-      { name: "TU Munich", city: "Munich", fees: "€0/semester", ranking: "#1 in Germany" },
-      { name: "RWTH Aachen", city: "Aachen", fees: "€0/semester", ranking: "Top engineering" },
-      { name: "TU Berlin", city: "Berlin", fees: "€0/semester" },
-      { name: "University of Stuttgart", city: "Stuttgart", fees: "€1,500/semester" },
+      { name: "RWTH Aachen University", city: "Aachen", fees: "Free tuition", ranking: "#1 Engineering in Germany" },
+      { name: "Karlsruhe Institute of Technology", city: "Karlsruhe", fees: "Free tuition", ranking: "Top 5 Engineering" },
+      { name: "Johannes Gutenberg University Mainz", city: "Mainz", fees: "Free tuition", ranking: "Top 10 in Germany" },
+      { name: "University of Bonn", city: "Bonn", fees: "Free tuition", ranking: "Top 10 in Germany" },
+      { name: "University of Ulm", city: "Ulm", fees: "Free tuition", ranking: "Top Research University" },
+      { name: "Munich Business School", city: "Munich", fees: "€15K/year", ranking: "Top Business School" },
     ],
     careerOutcomes: ["18-month job seeker visa", "Engineering roles in automotive and tech", "Average salary €50K–70K", "EU Blue Card for long-term residence", "PhD research positions"],
     faqs: [
