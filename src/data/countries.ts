@@ -181,8 +181,10 @@ export const countriesData: Record<string, CountryData> = {
     admissionProcess: ["Qualify NEET UG", "Apply through MPR", "Get admission", "Visa processing", "Travel"],
     visaSupport: "Full visa support.", topUniversities: [
       { name: "Tashkent Medical Academy", city: "Tashkent", fees: "₹2.2L/year", ranking: "Top in Uzbekistan" },
-      { name: "Samarkand State Medical University", city: "Samarkand", fees: "₹2L/year" },
-      { name: "Bukhara State Medical Institute", city: "Bukhara", fees: "₹1.8L/year" },
+      { name: "Samarkand State Medical University", city: "Samarkand", fees: "₹2L/year", ranking: "#2 in Uzbekistan" },
+      { name: "Bukhara State Medical Institute", city: "Bukhara", fees: "₹1.8L/year", ranking: "NMC Recognized" },
+      { name: "Andijan State Medical Institute", city: "Andijan", fees: "₹1.8L/year", ranking: "NMC Recognized" },
+      { name: "Fergana Medical Institute of Public Health", city: "Fergana", fees: "₹1.8L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "Global medical careers"],
     faqs: [
