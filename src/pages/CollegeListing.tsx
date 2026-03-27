@@ -4,7 +4,7 @@ import StandardPageTemplate from "@/components/templates/StandardPageTemplate";
 import { AnimateIn } from "@/components/AnimateIn";
 import { ArrowRight, MapPin, DollarSign, Search, X, SlidersHorizontal } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { colleges } from "@/data/colleges";
+import { colleges, getCollegeImage } from "@/data/colleges";
 
 const allCountries = [...new Set(colleges.map(c => c.country))].sort();
 const allPrograms = [...new Set(colleges.map(c => c.program))].sort();
