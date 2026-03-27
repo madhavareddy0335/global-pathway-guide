@@ -291,12 +291,7 @@ export const countriesData: Record<string, CountryData> = {
     educationSystem: "1.5–2 year Master's programs.", feeRange: "AUD 20,000–45,000/year", livingCost: "AUD 1,500–2,500/month", language: "English", recognition: "Globally recognized",
     hostel: "On-campus and off-campus options.", indianFood: "Large Indian community with extensive food options.", safety: "Very safe with high quality of life.",
     admissionProcess: ["Research programs", "Prepare IELTS/PTE", "Apply directly to universities", "Accept offer and pay deposit", "Apply for student visa (subclass 500)", "Travel to Australia"],
-    visaSupport: "Complete subclass 500 visa assistance.", topUniversities: [
-      { name: "University of Melbourne", city: "Melbourne", fees: "AUD 42K/year", ranking: "#1 in Australia" },
-      { name: "University of Sydney", city: "Sydney", fees: "AUD 45K/year" },
-      { name: "UNSW Sydney", city: "Sydney", fees: "AUD 40K/year" },
-      { name: "Monash University", city: "Melbourne", fees: "AUD 38K/year" },
-    ],
+    visaSupport: "Complete subclass 500 visa assistance.", topUniversities: [],
     careerOutcomes: ["2-4 year post-study work visa", "PR pathway", "Average salary AUD 70K–100K", "Strong tech and engineering sectors"],
     faqs: [
       { q: "Can I get PR after MS in Australia?", a: "Yes, through the skilled migration pathway based on your occupation and points." },
