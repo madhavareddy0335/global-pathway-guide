@@ -109,9 +109,11 @@ export const countriesData: Record<string, CountryData> = {
     visaSupport: "Visa-free entry for Indian students with a valid admission letter. Residence permit obtained after arrival.",
     topUniversities: [
       { name: "Tbilisi State Medical University", city: "Tbilisi", fees: "₹3.5L/year", ranking: "#1 in Georgia" },
-      { name: "University of Georgia", city: "Tbilisi", fees: "₹3.8L/year" },
-      { name: "European University", city: "Tbilisi", fees: "₹4L/year" },
-      { name: "Batumi Shota Rustaveli State University", city: "Batumi", fees: "₹3L/year" },
+      { name: "Ivane Javakhishvili Tbilisi State University", city: "Tbilisi", fees: "₹3.5L/year", ranking: "#2 in Georgia" },
+      { name: "European University Georgia", city: "Tbilisi", fees: "₹4L/year", ranking: "Top Private in Georgia" },
+      { name: "University of Georgia Tbilisi", city: "Tbilisi", fees: "₹3.8L/year", ranking: "Top 5 in Georgia" },
+      { name: "David Tvildiani Medical University", city: "Tbilisi", fees: "₹4.5L/year", ranking: "Top Private in Georgia" },
+      { name: "Batumi Shota Rustaveli State University", city: "Batumi", fees: "₹3L/year", ranking: "WHO Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG in India or Europe", "Practice in EU countries", "Global healthcare careers", "Research positions"],
     faqs: [
