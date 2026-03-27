@@ -204,6 +204,9 @@ export const countriesData: Record<string, CountryData> = {
     admissionProcess: ["Qualify NEET UG", "Apply via MPR", "Admission confirmation", "Visa & travel"],
     visaSupport: "Complete visa assistance.", topUniversities: [
       { name: "Avicenna Tajik State Medical University", city: "Dushanbe", fees: "₹2L/year", ranking: "Top in Tajikistan" },
+      { name: "Tajik National University", city: "Dushanbe", fees: "₹2L/year", ranking: "#1 National University" },
+      { name: "Avicenna International Medical University", city: "Dushanbe", fees: "₹2.2L/year", ranking: "NMC Recognized" },
+      { name: "Khatlon State Medical University", city: "Khatlon", fees: "₹1.8L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization"],
     faqs: [{ q: "Is MBBS from Tajikistan valid?", a: "Yes, from NMC-recognized universities." }],
