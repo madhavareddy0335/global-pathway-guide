@@ -136,7 +136,6 @@ export const countriesData: Record<string, CountryData> = {
     visaSupport: "Complete visa support provided by MPR team.",
     topUniversities: [
       { name: "University of Belgrade Faculty of Medicine", city: "Belgrade", fees: "₹4.5L/year", ranking: "Top in Serbia" },
-      { name: "University of Novi Sad Medical Faculty", city: "Novi Sad", fees: "₹4L/year" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "Practice in EU/EEA countries", "Global medical careers"],
     faqs: [
