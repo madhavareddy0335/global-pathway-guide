@@ -246,11 +246,11 @@ export const countriesData: Record<string, CountryData> = {
     safety: "US campuses have dedicated safety departments. Choose university locations wisely based on safety rankings.",
     admissionProcess: ["Take GRE and IELTS/TOEFL", "Research and shortlist universities", "Prepare SOP, LORs, resume", "Submit applications (Fall/Spring intake)", "Receive offers and finalize university", "Apply for F-1 student visa", "Pre-departure prep with MPR"],
     visaSupport: "Complete F-1 visa guidance including DS-160, SEVIS payment, embassy interview preparation.", topUniversities: [
-      { name: "Massachusetts Institute of Technology", city: "Boston", fees: "$55K/year", ranking: "#1 globally" },
-      { name: "Stanford University", city: "California", fees: "$57K/year", ranking: "Top 5" },
-      { name: "Carnegie Mellon University", city: "Pittsburgh", fees: "$50K/year", ranking: "Top for CS" },
-      { name: "University of Illinois Urbana-Champaign", city: "Illinois", fees: "$35K/year", ranking: "Top 20" },
-      { name: "Arizona State University", city: "Arizona", fees: "$28K/year", ranking: "Most innovative" },
+      { name: "University of Michigan", city: "Ann Arbor", fees: "$50K/year", ranking: "Top 25 Globally" },
+      { name: "California State University, Sacramento", city: "Sacramento", fees: "$18K/year", ranking: "CSU System" },
+      { name: "California State University, East Bay", city: "Hayward", fees: "$18K/year", ranking: "CSU System" },
+      { name: "Texas A&M University - Kingsville", city: "Kingsville", fees: "$15K/year", ranking: "Texas A&M System" },
+      { name: "Roosevelt University", city: "Chicago", fees: "$20K/year" },
     ],
     careerOutcomes: ["Software engineering at FAANG companies", "Data science and AI roles", "3-year OPT work authorization", "Average starting salary $80K–$150K", "Path to H1B and green card", "PhD opportunities at top research labs"],
     faqs: [
