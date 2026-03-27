@@ -4,7 +4,7 @@ import StandardPageTemplate from "@/components/templates/StandardPageTemplate";
 import { AnimateIn } from "@/components/AnimateIn";
 import { ArrowRight, MapPin, DollarSign, Search, X, SlidersHorizontal } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { colleges } from "@/data/colleges";
+import { colleges, getCollegeImage } from "@/data/colleges";
 
 const allCountries = [...new Set(colleges.map(c => c.country))].sort();
 const allPrograms = [...new Set(colleges.map(c => c.program))].sort();
@@ -196,19 +196,37 @@ const CollegeListing = () => {
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                 {filtered.map((c, i) => (
                   <AnimateIn key={c.slug} animation="fade-up" delay={Math.min(i * 50, 400)}>
-                    <Link to={`/colleges/${c.slug}`} className="block p-6 rounded-2xl bg-background border card-hover h-full group">
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="text-xl">{c.flag}</span>
-                        <span className="text-xs font-medium text-accent">{c.program}</span>
+                    <Link to={`/colleges/${c.slug}`} className="block rounded-2xl overflow-hidden bg-background border card-hover h-full group">
+                      {/* College Country Image */}
+                      <div className="relative h-36 overflow-hidden">
+                        <img
+                          src={getCollegeImage(c.country)}
+                          alt={`${c.name} - ${c.country}`}
+                          loading="lazy"
+                          width={800}
+                          height={512}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                        <div className="absolute top-3 right-3 px-2.5 py-1 bg-accent/90 text-accent-foreground text-xs font-bold rounded-lg">
+                          {c.program}
+                        </div>
+                        <div className="absolute bottom-3 left-4 flex items-center gap-2">
+                          <span className="text-lg">{c.flag}</span>
+                          <span className="text-xs font-semibold text-white/80">{c.country}</span>
+                        </div>
                       </div>
-                      <h3 className="text-base font-bold text-foreground group-hover:text-accent transition-colors mb-2 leading-snug">{c.name}</h3>
-                      <div className="space-y-1 text-xs text-muted-foreground">
-                        <p className="flex items-center gap-1"><MapPin className="w-3 h-3" />{c.city}, {c.country}</p>
-                        <p className="flex items-center gap-1"><DollarSign className="w-3 h-3" />{c.fees}</p>
-                        {c.ranking && <p className="text-accent font-medium mt-1">{c.ranking}</p>}
-                      </div>
-                      <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-accent opacity-0 group-hover:opacity-100 transition-opacity">
-                        View Details <ArrowRight className="w-3.5 h-3.5" />
+                      {/* Card Content */}
+                      <div className="p-5">
+                        <h3 className="text-base font-bold text-foreground group-hover:text-accent transition-colors mb-2 leading-snug">{c.name}</h3>
+                        <div className="space-y-1 text-xs text-muted-foreground">
+                          <p className="flex items-center gap-1"><MapPin className="w-3 h-3" />{c.city}, {c.country}</p>
+                          <p className="flex items-center gap-1"><DollarSign className="w-3 h-3" />{c.fees}</p>
+                          {c.ranking && <p className="text-accent font-medium mt-1">{c.ranking}</p>}
+                        </div>
+                        <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-accent opacity-0 group-hover:opacity-100 transition-opacity">
+                          View Details <ArrowRight className="w-3.5 h-3.5" />
+                        </div>
                       </div>
                     </Link>
                   </AnimateIn>

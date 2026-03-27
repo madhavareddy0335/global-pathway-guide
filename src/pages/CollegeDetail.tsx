@@ -1,8 +1,12 @@
 import { useParams, Link } from "react-router-dom";
-import StandardPageTemplate from "@/components/templates/StandardPageTemplate";
+import { useEffect } from "react";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { AnimateIn } from "@/components/AnimateIn";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getCollegeDetail } from "@/data/collegeDetails";
+import { getCollegeImage } from "@/data/colleges";
 import {
   CheckCircle, MapPin, DollarSign, GraduationCap, ArrowRight, Building2,
   Calendar, Users, Award, BookOpen, Home, Utensils, HelpCircle, Star,
@@ -13,15 +17,46 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const CollegeDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const college = getCollegeDetail(slug || "");
+  const collegeImage = getCollegeImage(college.country);
+
+  useEffect(() => {
+    document.title = `${college.name} — Fees, Admissions, Placements & Reviews | MPR Global Education`;
+    window.scrollTo(0, 0);
+  }, [college]);
 
   return (
-    <StandardPageTemplate
-      metaTitle={`${college.name} — Fees, Admissions, Placements & Reviews | MPR Global Education`}
-      metaDescription={`Study at ${college.name} in ${college.city}, ${college.country}. Fees: ${college.fees}. Courses, admissions, placements & scholarship info.`}
-      heroLabel={`${college.program} in ${college.country}`}
-      heroTitle={college.name}
-      heroSubtitle={`${college.flag} ${college.city}, ${college.country} — Est. ${college.established}`}
-    >
+    <>
+      <Header />
+      <main>
+        {/* Hero with Country Image */}
+        <section className="relative pt-28 pb-20 md:pt-36 md:pb-28 overflow-hidden">
+          <img
+            src={collegeImage}
+            alt={`${college.name} - ${college.country}`}
+            className="absolute inset-0 w-full h-full object-cover"
+            width={800}
+            height={512}
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/50" />
+          <div className="container relative z-10">
+            <AnimateIn animation="fade-up">
+              <span className="inline-block text-xs font-bold uppercase tracking-[0.2em] text-accent mb-3">{college.program} in {college.country}</span>
+            </AnimateIn>
+            <AnimateIn animation="fade-up" delay={80}>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-[1.08] max-w-3xl">{college.name}</h1>
+            </AnimateIn>
+            <AnimateIn animation="fade-up" delay={160}>
+              <p className="mt-4 text-lg text-white/70 flex items-center gap-2">
+                <span className="text-2xl">{college.flag}</span> {college.city}, {college.country} — Est. {college.established}
+              </p>
+            </AnimateIn>
+            <AnimateIn animation="fade-up" delay={240}>
+              <Link to="/contact" className="inline-flex items-center gap-2 mt-6 px-7 py-3.5 bg-accent text-accent-foreground font-semibold rounded-xl hover:brightness-110 transition-all">
+                Get Free Counselling <ArrowRight className="w-4 h-4" />
+              </Link>
+            </AnimateIn>
+          </div>
+        </section>
       {/* Sticky Nav */}
       <section className="py-3 border-b sticky top-16 md:top-20 bg-background/95 backdrop-blur-md z-30">
         <div className="container">
@@ -303,7 +338,10 @@ const CollegeDetail = () => {
           </div>
         </section>
       )}
-    </StandardPageTemplate>
+      </main>
+      <Footer />
+      <WhatsAppButton />
+    </>
   );
 };
 
