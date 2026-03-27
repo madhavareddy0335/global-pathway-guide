@@ -63,10 +63,13 @@ export const countriesData: Record<string, CountryData> = {
     visaSupport: "MPR provides complete visa assistance including document preparation, embassy appointment scheduling, and mock interview guidance. Student visa processing takes 2-4 weeks.",
     topUniversities: [
       { name: "Kazan Federal University", city: "Kazan", fees: "₹3.5L/year", ranking: "Top 10 in Russia" },
-      { name: "Bashkir State Medical University", city: "Ufa", fees: "₹3L/year", ranking: "Top 15 in Russia" },
-      { name: "Crimea Federal University", city: "Simferopol", fees: "₹2.8L/year" },
-      { name: "Orenburg State Medical University", city: "Orenburg", fees: "₹3.2L/year" },
-      { name: "Kursk State Medical University", city: "Kursk", fees: "₹4L/year", ranking: "Top rated for international students" },
+      { name: "Lomonosov Moscow State University", city: "Moscow", fees: "₹5L/year", ranking: "#1 in Russia" },
+      { name: "First Moscow State Medical University", city: "Moscow", fees: "₹5L/year", ranking: "Top 3 in Russia" },
+      { name: "Pavlov First Saint Petersburg State Medical University", city: "Saint Petersburg", fees: "₹4.5L/year", ranking: "Top 5 in Russia" },
+      { name: "Russian National Research Medical University", city: "Moscow", fees: "₹4.5L/year", ranking: "Top 5 in Russia" },
+      { name: "Bashkir State Medical University", city: "Ufa", fees: "₹3.2L/year", ranking: "Top 15 in Russia" },
+      { name: "Kursk State Medical University", city: "Kursk", fees: "₹4L/year", ranking: "Top rated for internationals" },
+      { name: "Crimean Federal University", city: "Simferopol", fees: "₹2.8L/year", ranking: "Top 20 in Russia" },
     ],
     careerOutcomes: [
       "Practice in India after clearing FMGE/NEXT exam",
