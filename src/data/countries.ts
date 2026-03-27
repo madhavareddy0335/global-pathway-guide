@@ -156,9 +156,11 @@ export const countriesData: Record<string, CountryData> = {
     safety: "Kazakhstan is a safe, stable country with a growing economy and welcoming attitude toward international students.",
     admissionProcess: ["Qualify NEET UG", "Apply through MPR", "Get admission confirmation", "Visa application", "Pre-departure briefing", "Travel to Kazakhstan"],
     visaSupport: "Full visa assistance by MPR team.", topUniversities: [
-      { name: "Al-Farabi Kazakh National University", city: "Almaty", fees: "₹2.8L/year" },
-      { name: "Kazakh National Medical University", city: "Almaty", fees: "₹3L/year", ranking: "Top medical university" },
-      { name: "Semey Medical University", city: "Semey", fees: "₹2.5L/year" },
+      { name: "Kazakh National Medical University", city: "Almaty", fees: "₹3L/year", ranking: "Top in Kazakhstan" },
+      { name: "Al Farabi Kazakh National University", city: "Almaty", fees: "₹2.8L/year", ranking: "Top in Kazakhstan" },
+      { name: "Astana Medical University", city: "Astana", fees: "₹2.8L/year", ranking: "#2 in Kazakhstan" },
+      { name: "Semey State Medical University", city: "Semey", fees: "₹2.5L/year", ranking: "NMC Recognized" },
+      { name: "Karaganda State Medical University", city: "Karaganda", fees: "₹2.5L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "Medical careers globally"],
     faqs: [
