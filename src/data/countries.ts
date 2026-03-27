@@ -271,10 +271,9 @@ export const countriesData: Record<string, CountryData> = {
     hostel: "University halls of residence and private accommodations.", indianFood: "Widely available across the UK.", safety: "Safe with excellent public services.",
     admissionProcess: ["Research programs", "Prepare IELTS and documents", "Apply via UCAS or direct", "Receive offer", "Apply for Tier 4 visa", "Travel to UK"],
     visaSupport: "Complete Tier 4 student visa support.", topUniversities: [
-      { name: "University of Oxford", city: "Oxford", fees: "£30K/year", ranking: "#1 in UK" },
-      { name: "Imperial College London", city: "London", fees: "£35K/year", ranking: "Top 10 globally" },
-      { name: "University of Edinburgh", city: "Edinburgh", fees: "£25K/year" },
-      { name: "University of Manchester", city: "Manchester", fees: "£22K/year" },
+      { name: "Queen's University Belfast", city: "Belfast", fees: "£20K/year", ranking: "Russell Group" },
+      { name: "Kingston University London", city: "London", fees: "£18K/year", ranking: "Top London University" },
+      { name: "Middlesex University London", city: "London", fees: "£16K/year", ranking: "Top London University" },
     ],
     careerOutcomes: ["2-year PSW visa for work experience", "Tech and finance roles in London", "Average salary £30K–£50K", "PhD and research paths", "Global career mobility"],
     faqs: [
