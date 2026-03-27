@@ -333,11 +333,7 @@ export const countriesData: Record<string, CountryData> = {
     educationSystem: "2-year Laurea Magistrale (Master's) programs.", feeRange: "€1,000–4,000/year", livingCost: "€600–1,000/month", language: "English and Italian programs", recognition: "EU recognized",
     hostel: "University residences and shared apartments.", indianFood: "Available in major cities.", safety: "Safe with good public transport.",
     admissionProcess: ["Research programs on Universitaly portal", "Prepare documents", "Apply through university portals", "Pre-enrollment at Italian embassy", "Student visa application", "Travel to Italy"],
-    visaSupport: "Italian student visa guidance.", topUniversities: [
-      { name: "Politecnico di Milano", city: "Milan", fees: "€3.8K/year", ranking: "#1 in Italy for engineering" },
-      { name: "University of Bologna", city: "Bologna", fees: "€2.5K/year", ranking: "Oldest university in the world" },
-      { name: "Sapienza University of Rome", city: "Rome", fees: "€1K/year" },
-    ],
+    visaSupport: "Italian student visa guidance.", topUniversities: [],
     careerOutcomes: ["EU work opportunities", "Strong in design and fashion industry", "Engineering roles", "Research positions"],
     faqs: [
       { q: "Is MS in Italy affordable?", a: "Yes, tuition fees at public universities range from €1,000–4,000 per year, with scholarship options." },
