@@ -1,3 +1,5 @@
+import { countryImages } from "@/assets/countries";
+
 export interface CollegeListItem {
   name: string;
   country: string;
@@ -8,6 +10,26 @@ export interface CollegeListItem {
   city: string;
   ranking: string;
   slug: string;
+}
+
+const countryKeyMap: Record<string, string> = {
+  Russia: "russia",
+  Georgia: "georgia",
+  Kazakhstan: "kazakhstan",
+  Uzbekistan: "uzbekistan",
+  Tajikistan: "tajikistan",
+  Kyrgyzstan: "kyrgyzstan",
+  USA: "usa",
+  UK: "uk",
+  Germany: "germany",
+  Ireland: "ireland",
+  Australia: "australia",
+  Italy: "italy",
+  Serbia: "serbia",
+};
+
+export function getCollegeImage(country: string): string {
+  return countryImages[countryKeyMap[country] || "russia"] || "";
 }
 
 function toSlug(name: string): string {
