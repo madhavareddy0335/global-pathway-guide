@@ -9,10 +9,16 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { CTASection } from "@/components/home/CTASection";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import type { CountryData } from "@/data/countries";
+import { countryImages } from "@/assets/countries";
 
 interface Props {
   data: CountryData;
 }
+
+const getCountryKey = (slug: string): string => {
+  const parts = slug.split("-in-");
+  return parts.length > 1 ? parts[1] : slug;
+};
 
 const CountryPageTemplate = ({ data }: Props) => {
   useEffect(() => {
@@ -20,6 +26,9 @@ const CountryPageTemplate = ({ data }: Props) => {
     document.querySelector('meta[name="description"]')?.setAttribute("content", data.metaDescription);
     window.scrollTo(0, 0);
   }, [data]);
+
+  const countryKey = getCountryKey(data.slug);
+  const countryImage = countryImages[countryKey];
 
   const infoCards = [
     { icon: DollarSign, label: "Tuition Fees", value: data.feeRange },
@@ -32,9 +41,19 @@ const CountryPageTemplate = ({ data }: Props) => {
     <>
       <Header />
       <main>
-        {/* Hero */}
-        <section className="hero-gradient pt-28 pb-20 md:pt-36 md:pb-28">
-          <div className="container">
+        {/* Hero with Country Image */}
+        <section className="relative pt-28 pb-20 md:pt-36 md:pb-28 overflow-hidden">
+          {countryImage && (
+            <img
+              src={countryImage}
+              alt={`Study in ${data.name}`}
+              className="absolute inset-0 w-full h-full object-cover"
+              width={800}
+              height={512}
+            />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/40" />
+          <div className="container relative z-10">
             <AnimateIn animation="fade-up">
               <span className="text-5xl mb-4 block">{data.flag}</span>
             </AnimateIn>
@@ -42,10 +61,10 @@ const CountryPageTemplate = ({ data }: Props) => {
               <span className="inline-block text-xs font-bold uppercase tracking-[0.2em] text-accent mb-3">{data.program} Abroad</span>
             </AnimateIn>
             <AnimateIn animation="fade-up" delay={120}>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-primary-foreground leading-[1.08] max-w-3xl">{data.heroTitle}</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-[1.08] max-w-3xl">{data.heroTitle}</h1>
             </AnimateIn>
             <AnimateIn animation="fade-up" delay={200}>
-              <p className="mt-5 text-lg text-primary-foreground/65 max-w-2xl leading-relaxed">{data.heroSubtitle}</p>
+              <p className="mt-5 text-lg text-white/70 max-w-2xl leading-relaxed">{data.heroSubtitle}</p>
             </AnimateIn>
             <AnimateIn animation="fade-up" delay={300}>
               <Link to="/contact" className="inline-flex items-center gap-2 mt-8 px-7 py-3.5 bg-accent text-accent-foreground font-semibold rounded-xl btn-magnetic hover:brightness-110 transition-all">
