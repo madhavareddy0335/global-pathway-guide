@@ -63,10 +63,13 @@ export const countriesData: Record<string, CountryData> = {
     visaSupport: "MPR provides complete visa assistance including document preparation, embassy appointment scheduling, and mock interview guidance. Student visa processing takes 2-4 weeks.",
     topUniversities: [
       { name: "Kazan Federal University", city: "Kazan", fees: "₹3.5L/year", ranking: "Top 10 in Russia" },
-      { name: "Bashkir State Medical University", city: "Ufa", fees: "₹3L/year", ranking: "Top 15 in Russia" },
-      { name: "Crimea Federal University", city: "Simferopol", fees: "₹2.8L/year" },
-      { name: "Orenburg State Medical University", city: "Orenburg", fees: "₹3.2L/year" },
-      { name: "Kursk State Medical University", city: "Kursk", fees: "₹4L/year", ranking: "Top rated for international students" },
+      { name: "Lomonosov Moscow State University", city: "Moscow", fees: "₹5L/year", ranking: "#1 in Russia" },
+      { name: "First Moscow State Medical University", city: "Moscow", fees: "₹5L/year", ranking: "Top 3 in Russia" },
+      { name: "Pavlov First Saint Petersburg State Medical University", city: "Saint Petersburg", fees: "₹4.5L/year", ranking: "Top 5 in Russia" },
+      { name: "Russian National Research Medical University", city: "Moscow", fees: "₹4.5L/year", ranking: "Top 5 in Russia" },
+      { name: "Bashkir State Medical University", city: "Ufa", fees: "₹3.2L/year", ranking: "Top 15 in Russia" },
+      { name: "Kursk State Medical University", city: "Kursk", fees: "₹4L/year", ranking: "Top rated for internationals" },
+      { name: "Crimean Federal University", city: "Simferopol", fees: "₹2.8L/year", ranking: "Top 20 in Russia" },
     ],
     careerOutcomes: [
       "Practice in India after clearing FMGE/NEXT exam",
@@ -106,9 +109,11 @@ export const countriesData: Record<string, CountryData> = {
     visaSupport: "Visa-free entry for Indian students with a valid admission letter. Residence permit obtained after arrival.",
     topUniversities: [
       { name: "Tbilisi State Medical University", city: "Tbilisi", fees: "₹3.5L/year", ranking: "#1 in Georgia" },
-      { name: "University of Georgia", city: "Tbilisi", fees: "₹3.8L/year" },
-      { name: "European University", city: "Tbilisi", fees: "₹4L/year" },
-      { name: "Batumi Shota Rustaveli State University", city: "Batumi", fees: "₹3L/year" },
+      { name: "Ivane Javakhishvili Tbilisi State University", city: "Tbilisi", fees: "₹3.5L/year", ranking: "#2 in Georgia" },
+      { name: "European University Georgia", city: "Tbilisi", fees: "₹4L/year", ranking: "Top Private in Georgia" },
+      { name: "University of Georgia Tbilisi", city: "Tbilisi", fees: "₹3.8L/year", ranking: "Top 5 in Georgia" },
+      { name: "David Tvildiani Medical University", city: "Tbilisi", fees: "₹4.5L/year", ranking: "Top Private in Georgia" },
+      { name: "Batumi Shota Rustaveli State University", city: "Batumi", fees: "₹3L/year", ranking: "WHO Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG in India or Europe", "Practice in EU countries", "Global healthcare careers", "Research positions"],
     faqs: [
@@ -131,7 +136,6 @@ export const countriesData: Record<string, CountryData> = {
     visaSupport: "Complete visa support provided by MPR team.",
     topUniversities: [
       { name: "University of Belgrade Faculty of Medicine", city: "Belgrade", fees: "₹4.5L/year", ranking: "Top in Serbia" },
-      { name: "University of Novi Sad Medical Faculty", city: "Novi Sad", fees: "₹4L/year" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "Practice in EU/EEA countries", "Global medical careers"],
     faqs: [
@@ -152,9 +156,11 @@ export const countriesData: Record<string, CountryData> = {
     safety: "Kazakhstan is a safe, stable country with a growing economy and welcoming attitude toward international students.",
     admissionProcess: ["Qualify NEET UG", "Apply through MPR", "Get admission confirmation", "Visa application", "Pre-departure briefing", "Travel to Kazakhstan"],
     visaSupport: "Full visa assistance by MPR team.", topUniversities: [
-      { name: "Al-Farabi Kazakh National University", city: "Almaty", fees: "₹2.8L/year" },
-      { name: "Kazakh National Medical University", city: "Almaty", fees: "₹3L/year", ranking: "Top medical university" },
-      { name: "Semey Medical University", city: "Semey", fees: "₹2.5L/year" },
+      { name: "Kazakh National Medical University", city: "Almaty", fees: "₹3L/year", ranking: "Top in Kazakhstan" },
+      { name: "Al Farabi Kazakh National University", city: "Almaty", fees: "₹2.8L/year", ranking: "Top in Kazakhstan" },
+      { name: "Astana Medical University", city: "Astana", fees: "₹2.8L/year", ranking: "#2 in Kazakhstan" },
+      { name: "Semey State Medical University", city: "Semey", fees: "₹2.5L/year", ranking: "NMC Recognized" },
+      { name: "Karaganda State Medical University", city: "Karaganda", fees: "₹2.5L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "Medical careers globally"],
     faqs: [
@@ -175,8 +181,10 @@ export const countriesData: Record<string, CountryData> = {
     admissionProcess: ["Qualify NEET UG", "Apply through MPR", "Get admission", "Visa processing", "Travel"],
     visaSupport: "Full visa support.", topUniversities: [
       { name: "Tashkent Medical Academy", city: "Tashkent", fees: "₹2.2L/year", ranking: "Top in Uzbekistan" },
-      { name: "Samarkand State Medical University", city: "Samarkand", fees: "₹2L/year" },
-      { name: "Bukhara State Medical Institute", city: "Bukhara", fees: "₹1.8L/year" },
+      { name: "Samarkand State Medical University", city: "Samarkand", fees: "₹2L/year", ranking: "#2 in Uzbekistan" },
+      { name: "Bukhara State Medical Institute", city: "Bukhara", fees: "₹1.8L/year", ranking: "NMC Recognized" },
+      { name: "Andijan State Medical Institute", city: "Andijan", fees: "₹1.8L/year", ranking: "NMC Recognized" },
+      { name: "Fergana Medical Institute of Public Health", city: "Fergana", fees: "₹1.8L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "Global medical careers"],
     faqs: [
@@ -196,6 +204,9 @@ export const countriesData: Record<string, CountryData> = {
     admissionProcess: ["Qualify NEET UG", "Apply via MPR", "Admission confirmation", "Visa & travel"],
     visaSupport: "Complete visa assistance.", topUniversities: [
       { name: "Avicenna Tajik State Medical University", city: "Dushanbe", fees: "₹2L/year", ranking: "Top in Tajikistan" },
+      { name: "Tajik National University", city: "Dushanbe", fees: "₹2L/year", ranking: "#1 National University" },
+      { name: "Avicenna International Medical University", city: "Dushanbe", fees: "₹2.2L/year", ranking: "NMC Recognized" },
+      { name: "Khatlon State Medical University", city: "Khatlon", fees: "₹1.8L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization"],
     faqs: [{ q: "Is MBBS from Tajikistan valid?", a: "Yes, from NMC-recognized universities." }],
@@ -212,8 +223,10 @@ export const countriesData: Record<string, CountryData> = {
     admissionProcess: ["Qualify NEET UG", "Apply via MPR", "Get admission", "Visa & travel"],
     visaSupport: "Full visa support.", topUniversities: [
       { name: "Kyrgyz State Medical Academy", city: "Bishkek", fees: "₹2.5L/year", ranking: "Top in Kyrgyzstan" },
-      { name: "Osh State University", city: "Osh", fees: "₹2L/year" },
-      { name: "International School of Medicine", city: "Bishkek", fees: "₹3L/year" },
+      { name: "Kyrgyz National University", city: "Bishkek", fees: "₹2.2L/year", ranking: "#1 National University" },
+      { name: "Kyrgyz Russian Slavic University", city: "Bishkek", fees: "₹2.8L/year", ranking: "Top 3 in Kyrgyzstan" },
+      { name: "Osh State University", city: "Osh", fees: "₹2.5L/year", ranking: "NMC Recognized" },
+      { name: "Asian Medical Institute", city: "Kant", fees: "₹2.8L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "International medical careers"],
     faqs: [
@@ -233,11 +246,11 @@ export const countriesData: Record<string, CountryData> = {
     safety: "US campuses have dedicated safety departments. Choose university locations wisely based on safety rankings.",
     admissionProcess: ["Take GRE and IELTS/TOEFL", "Research and shortlist universities", "Prepare SOP, LORs, resume", "Submit applications (Fall/Spring intake)", "Receive offers and finalize university", "Apply for F-1 student visa", "Pre-departure prep with MPR"],
     visaSupport: "Complete F-1 visa guidance including DS-160, SEVIS payment, embassy interview preparation.", topUniversities: [
-      { name: "Massachusetts Institute of Technology", city: "Boston", fees: "$55K/year", ranking: "#1 globally" },
-      { name: "Stanford University", city: "California", fees: "$57K/year", ranking: "Top 5" },
-      { name: "Carnegie Mellon University", city: "Pittsburgh", fees: "$50K/year", ranking: "Top for CS" },
-      { name: "University of Illinois Urbana-Champaign", city: "Illinois", fees: "$35K/year", ranking: "Top 20" },
-      { name: "Arizona State University", city: "Arizona", fees: "$28K/year", ranking: "Most innovative" },
+      { name: "University of Michigan", city: "Ann Arbor", fees: "$50K/year", ranking: "Top 25 Globally" },
+      { name: "California State University, Sacramento", city: "Sacramento", fees: "$18K/year", ranking: "CSU System" },
+      { name: "California State University, East Bay", city: "Hayward", fees: "$18K/year", ranking: "CSU System" },
+      { name: "Texas A&M University - Kingsville", city: "Kingsville", fees: "$15K/year", ranking: "Texas A&M System" },
+      { name: "Roosevelt University", city: "Chicago", fees: "$20K/year" },
     ],
     careerOutcomes: ["Software engineering at FAANG companies", "Data science and AI roles", "3-year OPT work authorization", "Average starting salary $80K–$150K", "Path to H1B and green card", "PhD opportunities at top research labs"],
     faqs: [
@@ -258,10 +271,9 @@ export const countriesData: Record<string, CountryData> = {
     hostel: "University halls of residence and private accommodations.", indianFood: "Widely available across the UK.", safety: "Safe with excellent public services.",
     admissionProcess: ["Research programs", "Prepare IELTS and documents", "Apply via UCAS or direct", "Receive offer", "Apply for Tier 4 visa", "Travel to UK"],
     visaSupport: "Complete Tier 4 student visa support.", topUniversities: [
-      { name: "University of Oxford", city: "Oxford", fees: "£30K/year", ranking: "#1 in UK" },
-      { name: "Imperial College London", city: "London", fees: "£35K/year", ranking: "Top 10 globally" },
-      { name: "University of Edinburgh", city: "Edinburgh", fees: "£25K/year" },
-      { name: "University of Manchester", city: "Manchester", fees: "£22K/year" },
+      { name: "Queen's University Belfast", city: "Belfast", fees: "£20K/year", ranking: "Russell Group" },
+      { name: "Kingston University London", city: "London", fees: "£18K/year", ranking: "Top London University" },
+      { name: "Middlesex University London", city: "London", fees: "£16K/year", ranking: "Top London University" },
     ],
     careerOutcomes: ["2-year PSW visa for work experience", "Tech and finance roles in London", "Average salary £30K–£50K", "PhD and research paths", "Global career mobility"],
     faqs: [
@@ -279,12 +291,7 @@ export const countriesData: Record<string, CountryData> = {
     educationSystem: "1.5–2 year Master's programs.", feeRange: "AUD 20,000–45,000/year", livingCost: "AUD 1,500–2,500/month", language: "English", recognition: "Globally recognized",
     hostel: "On-campus and off-campus options.", indianFood: "Large Indian community with extensive food options.", safety: "Very safe with high quality of life.",
     admissionProcess: ["Research programs", "Prepare IELTS/PTE", "Apply directly to universities", "Accept offer and pay deposit", "Apply for student visa (subclass 500)", "Travel to Australia"],
-    visaSupport: "Complete subclass 500 visa assistance.", topUniversities: [
-      { name: "University of Melbourne", city: "Melbourne", fees: "AUD 42K/year", ranking: "#1 in Australia" },
-      { name: "University of Sydney", city: "Sydney", fees: "AUD 45K/year" },
-      { name: "UNSW Sydney", city: "Sydney", fees: "AUD 40K/year" },
-      { name: "Monash University", city: "Melbourne", fees: "AUD 38K/year" },
-    ],
+    visaSupport: "Complete subclass 500 visa assistance.", topUniversities: [],
     careerOutcomes: ["2-4 year post-study work visa", "PR pathway", "Average salary AUD 70K–100K", "Strong tech and engineering sectors"],
     faqs: [
       { q: "Can I get PR after MS in Australia?", a: "Yes, through the skilled migration pathway based on your occupation and points." },
@@ -302,10 +309,12 @@ export const countriesData: Record<string, CountryData> = {
     hostel: "Studentenwerk housing and private apartments.", indianFood: "Available in major cities like Munich, Berlin, Stuttgart.", safety: "Very safe with excellent public infrastructure.",
     admissionProcess: ["Check uni-assist requirements", "Prepare documents and IELTS", "Apply through uni-assist or direct portal", "Receive admission", "Apply for German student visa", "Open blocked account (€11,208/year)", "Travel to Germany"],
     visaSupport: "Complete German student visa and blocked account support.", topUniversities: [
-      { name: "TU Munich", city: "Munich", fees: "€0/semester", ranking: "#1 in Germany" },
-      { name: "RWTH Aachen", city: "Aachen", fees: "€0/semester", ranking: "Top engineering" },
-      { name: "TU Berlin", city: "Berlin", fees: "€0/semester" },
-      { name: "University of Stuttgart", city: "Stuttgart", fees: "€1,500/semester" },
+      { name: "RWTH Aachen University", city: "Aachen", fees: "Free tuition", ranking: "#1 Engineering in Germany" },
+      { name: "Karlsruhe Institute of Technology", city: "Karlsruhe", fees: "Free tuition", ranking: "Top 5 Engineering" },
+      { name: "Johannes Gutenberg University Mainz", city: "Mainz", fees: "Free tuition", ranking: "Top 10 in Germany" },
+      { name: "University of Bonn", city: "Bonn", fees: "Free tuition", ranking: "Top 10 in Germany" },
+      { name: "University of Ulm", city: "Ulm", fees: "Free tuition", ranking: "Top Research University" },
+      { name: "Munich Business School", city: "Munich", fees: "€15K/year", ranking: "Top Business School" },
     ],
     careerOutcomes: ["18-month job seeker visa", "Engineering roles in automotive and tech", "Average salary €50K–70K", "EU Blue Card for long-term residence", "PhD research positions"],
     faqs: [
@@ -324,11 +333,7 @@ export const countriesData: Record<string, CountryData> = {
     educationSystem: "2-year Laurea Magistrale (Master's) programs.", feeRange: "€1,000–4,000/year", livingCost: "€600–1,000/month", language: "English and Italian programs", recognition: "EU recognized",
     hostel: "University residences and shared apartments.", indianFood: "Available in major cities.", safety: "Safe with good public transport.",
     admissionProcess: ["Research programs on Universitaly portal", "Prepare documents", "Apply through university portals", "Pre-enrollment at Italian embassy", "Student visa application", "Travel to Italy"],
-    visaSupport: "Italian student visa guidance.", topUniversities: [
-      { name: "Politecnico di Milano", city: "Milan", fees: "€3.8K/year", ranking: "#1 in Italy for engineering" },
-      { name: "University of Bologna", city: "Bologna", fees: "€2.5K/year", ranking: "Oldest university in the world" },
-      { name: "Sapienza University of Rome", city: "Rome", fees: "€1K/year" },
-    ],
+    visaSupport: "Italian student visa guidance.", topUniversities: [],
     careerOutcomes: ["EU work opportunities", "Strong in design and fashion industry", "Engineering roles", "Research positions"],
     faqs: [
       { q: "Is MS in Italy affordable?", a: "Yes, tuition fees at public universities range from €1,000–4,000 per year, with scholarship options." },
@@ -346,10 +351,9 @@ export const countriesData: Record<string, CountryData> = {
     hostel: "University and private accommodations.", indianFood: "Available in Dublin and other cities.", safety: "One of the safest countries in Europe.",
     admissionProcess: ["Research programs", "Prepare IELTS and documents", "Apply to universities", "Accept offer", "Apply for Stamp 2 student visa", "Travel to Ireland"],
     visaSupport: "Complete Irish student visa support.", topUniversities: [
-      { name: "Trinity College Dublin", city: "Dublin", fees: "€18K/year", ranking: "#1 in Ireland" },
-      { name: "University College Dublin", city: "Dublin", fees: "€20K/year" },
-      { name: "NUI Galway", city: "Galway", fees: "€14K/year" },
-      { name: "University of Limerick", city: "Limerick", fees: "€12K/year" },
+      { name: "Trinity College Dublin", city: "Dublin", fees: "€22K/year", ranking: "#1 in Ireland" },
+      { name: "University of Galway", city: "Galway", fees: "€18K/year", ranking: "Top 3 in Ireland" },
+      { name: "University College Cork", city: "Cork", fees: "€18K/year", ranking: "Top 3 in Ireland" },
     ],
     careerOutcomes: ["2-year stay back visa", "Tech roles at global companies", "Pharma and biotech careers", "Average salary €35K–55K", "EU career mobility"],
     faqs: [
