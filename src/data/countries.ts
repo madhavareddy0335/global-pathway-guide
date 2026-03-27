@@ -351,10 +351,9 @@ export const countriesData: Record<string, CountryData> = {
     hostel: "University and private accommodations.", indianFood: "Available in Dublin and other cities.", safety: "One of the safest countries in Europe.",
     admissionProcess: ["Research programs", "Prepare IELTS and documents", "Apply to universities", "Accept offer", "Apply for Stamp 2 student visa", "Travel to Ireland"],
     visaSupport: "Complete Irish student visa support.", topUniversities: [
-      { name: "Trinity College Dublin", city: "Dublin", fees: "€18K/year", ranking: "#1 in Ireland" },
-      { name: "University College Dublin", city: "Dublin", fees: "€20K/year" },
-      { name: "NUI Galway", city: "Galway", fees: "€14K/year" },
-      { name: "University of Limerick", city: "Limerick", fees: "€12K/year" },
+      { name: "Trinity College Dublin", city: "Dublin", fees: "€22K/year", ranking: "#1 in Ireland" },
+      { name: "University of Galway", city: "Galway", fees: "€18K/year", ranking: "Top 3 in Ireland" },
+      { name: "University College Cork", city: "Cork", fees: "€18K/year", ranking: "Top 3 in Ireland" },
     ],
     careerOutcomes: ["2-year stay back visa", "Tech roles at global companies", "Pharma and biotech careers", "Average salary €35K–55K", "EU career mobility"],
     faqs: [
