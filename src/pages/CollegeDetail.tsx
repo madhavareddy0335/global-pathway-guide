@@ -338,7 +338,10 @@ const CollegeDetail = () => {
           </div>
         </section>
       )}
-    </StandardPageTemplate>
+      </main>
+      <Footer />
+      <WhatsAppButton />
+    </>
   );
 };
 
