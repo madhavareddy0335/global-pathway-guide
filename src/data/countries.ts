@@ -223,8 +223,10 @@ export const countriesData: Record<string, CountryData> = {
     admissionProcess: ["Qualify NEET UG", "Apply via MPR", "Get admission", "Visa & travel"],
     visaSupport: "Full visa support.", topUniversities: [
       { name: "Kyrgyz State Medical Academy", city: "Bishkek", fees: "₹2.5L/year", ranking: "Top in Kyrgyzstan" },
-      { name: "Osh State University", city: "Osh", fees: "₹2L/year" },
-      { name: "International School of Medicine", city: "Bishkek", fees: "₹3L/year" },
+      { name: "Kyrgyz National University", city: "Bishkek", fees: "₹2.2L/year", ranking: "#1 National University" },
+      { name: "Kyrgyz Russian Slavic University", city: "Bishkek", fees: "₹2.8L/year", ranking: "Top 3 in Kyrgyzstan" },
+      { name: "Osh State University", city: "Osh", fees: "₹2.5L/year", ranking: "NMC Recognized" },
+      { name: "Asian Medical Institute", city: "Kant", fees: "₹2.8L/year", ranking: "NMC Recognized" },
     ],
     careerOutcomes: ["Practice in India after FMGE/NEXT", "PG specialization", "International medical careers"],
     faqs: [
